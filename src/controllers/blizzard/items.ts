@@ -17,7 +17,6 @@ const locale = 'en_US';
 
 // 'https://us.api.blizzard.com/data/wow/item-class/index?namespace=static-classic-us&locale=en_US&access_token=USIAYENhtI5XT12uEu8kbcsCtuch7YsdGt'
 
-
 // ===============
 // DEFAULT OPTIONS
 // ===============
@@ -25,34 +24,42 @@ const _getCharacterDefaultOptions = {
   verbose: false,
 };
 
-
 // =======
 // EXPORTS
 // =======
 
 // Module storage for the Item Classes Index
-// Item Classes are generic groups of items; 
+// Item Classes are generic groups of items;
 var itemClassesIndex: null | PlaceholderObject = null;
 
-export const getItemClassesIndex = async ({ verbose }: BasicFunctionOptions = _getCharacterDefaultOptions) => {
+export const getItemClassesIndex = async ({
+  verbose,
+}: BasicFunctionOptions = _getCharacterDefaultOptions) => {
   const itemClassesIndexEndpoint = 'data/wow/item-class/index';
   if (verbose) {
-    console.log('itemClassesIndex --- checking if module itemClassesIndex storage is empty...\n');
+    console.log(
+      'itemClassesIndex --- checking if module itemClassesIndex storage is empty...\n'
+    );
   }
 
   if (itemClassesIndex) {
     if (verbose) {
-      console.log('itemClassesIndex --- itemClassesIndex has been retrieved from the module storage...\n');
+      console.log(
+        'itemClassesIndex --- itemClassesIndex has been retrieved from the module storage...\n'
+      );
     }
     return itemClassesIndex;
   } else {
     if (verbose) {
-      console.log('itemClassesIndex --- itemClassesIndex is empty; attempting to retrieve list...\n');
+      console.log(
+        'itemClassesIndex --- itemClassesIndex is empty; attempting to retrieve list...\n'
+      );
     }
     let accessToken = await getToken({ verbose: true });
     let requestURL = `${protocol}://${region}.${blizzard_api}/${itemClassesIndexEndpoint}?namespace=${namespace}&locale=${locale}&access_token=${accessToken}`;
-    let requestConfig: PlaceholderObject = createAuthHeaders(accessToken); 
-    return axios.get(requestURL, requestConfig)
+    let requestConfig: PlaceholderObject = createAuthHeaders(accessToken);
+    return axios
+      .get(requestURL, requestConfig)
       .then((results: any) => {
         console.log('itemClassesIndex --- itemClassesIndex retrieved!\n');
         console.log('itemClassesIndex --- ', results.data, '\n');
@@ -60,13 +67,13 @@ export const getItemClassesIndex = async ({ verbose }: BasicFunctionOptions = _g
         return results.data;
       })
       .catch((error: any) => {
-        console.log('itemClassesIndex --- Something went wrong while attempting to retrieve the Item Classes Index: ', error);
+        console.log(
+          'itemClassesIndex --- Something went wrong while attempting to retrieve the Item Classes Index: ',
+          error
+        );
       });
   }
 };
-
-
-
 
 // ========
 // EXAMPLES
@@ -111,4 +118,3 @@ export const getItemClassesIndex = async ({ verbose }: BasicFunctionOptions = _g
 //     });
 //   });
 // };
-
