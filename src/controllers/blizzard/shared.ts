@@ -1,3 +1,4 @@
+import { AuthHeaders } from '../../interfaces/blizzard/AuthHeaders';
 import { URLConfig } from '../../interfaces/blizzard/URLConfig';
 
 export const urlConfig: URLConfig = {
@@ -9,7 +10,7 @@ export const urlConfig: URLConfig = {
 };
 
 // converts access token into headers config object for Axios
-export const createAuthHeaders = (access_token: string) => ({
+export const createAuthHeaders = (access_token: string): AuthHeaders => ({
   headers: {
     Authorization: `Bearer ${access_token}`,
   },

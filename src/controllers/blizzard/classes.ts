@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { AuthHeaders } from '../../interfaces/blizzard/AuthHeaders';
 import { BasicFunctionOptions } from '../../interfaces/internal/BasicFunctionOptions';
 import { PlaceholderObject } from '../../interfaces/internal/PlaceholderObject';
 import { getToken } from './getToken';
@@ -65,7 +66,7 @@ export const getPlayableClassesIndex = async ({
 
       let accessToken = await getToken();
       let requestURL = `${protocol}://${region}.${domain}/${playableClassesIndexEndpoint}?namespace=${namespace}&locale=${locale}&access_token=${accessToken}`;
-      let requestConfig: PlaceholderObject = createAuthHeaders(accessToken);
+      let requestConfig: AuthHeaders = createAuthHeaders(accessToken);
       let retrievedIndex = await axios.get(requestURL, requestConfig);
 
       if (verbose) {
