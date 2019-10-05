@@ -27,10 +27,11 @@ var token: null | AuthToken = null;
  *
  * If the token already exists, then it will return the access token directly
  * @param options Config options object for the getToken method.
+ * @returns The string-based access_token field that will exist on the OAuth Token
  */
 export const getToken = async ({
   verbose,
-}: BasicFunctionOptions = _defaultOptions) => {
+}: BasicFunctionOptions = _defaultOptions): Promise<string> => {
   if (verbose) {
     console.log('-------------------------------------------- \n');
     console.log('~*~ Blizzard Controller: getToken module --- running... \n');

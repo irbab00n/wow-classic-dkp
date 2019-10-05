@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { AuthHeaders } from '../../interfaces/blizzard/AuthHeaders';
+import { BlizzardAuthHeaders } from '../../interfaces/blizzard/AuthHeaders';
 import { BasicFunctionOptions } from '../../interfaces/internal/BasicFunctionOptions';
 import { PlaceholderObject } from '../../interfaces/internal/PlaceholderObject';
 import { getToken } from './getToken';
@@ -8,14 +8,14 @@ import { createAuthHeaders, urlConfig } from './shared';
 // ===============
 // DEFAULT OPTIONS
 // ===============
-const _getCharacterDefaultOptions = {
+const _getCharacterDefaultOptions: BasicFunctionOptions = {
   verbose: false,
 };
 
 // ==============
 // ERROR MESSAGES
 // ==============
-const ERROR_PLAYABLE_CLASS_INDEX_FETCH_FAILED =
+const ERROR_PLAYABLE_CLASS_INDEX_FETCH_FAILED: string =
   'getPlayableClassesIndex --- Something went wrong while attempting to retrieve the playable class index from the WoW Classic API';
 
 // ==============
@@ -30,9 +30,16 @@ var playableClassesIndex: null | PlaceholderObject = null;
 // EXPORTS
 // =======
 
-// Retrieves the playable classes index from the module storage
-// If the module storage hasn't been populated with data from the World of Warcraft API
-// It will be retireved and stored within the module
+/**
+ * @async
+ * @function getPlayableClassesIndex
+ * @description
+ * Retrieves the playable classes index from the module storage
+ * If the module storage hasn't been populated with data from the World of Warcraft API
+ * It will be retireved and stored within the module
+ * @param options Config object that allows the developer to specify whether the console logs are toggled on or off
+ * @param {Boolean} options.verbose
+ */
 export const getPlayableClassesIndex = async ({
   verbose,
 }: BasicFunctionOptions = _getCharacterDefaultOptions) => {
@@ -64,9 +71,9 @@ export const getPlayableClassesIndex = async ({
     try {
       const { protocol, region, domain, namespace, locale } = urlConfig;
 
-      let accessToken = await getToken();
-      let requestURL = `${protocol}://${region}.${domain}/${playableClassesIndexEndpoint}?namespace=${namespace}&locale=${locale}&access_token=${accessToken}`;
-      let requestConfig: AuthHeaders = createAuthHeaders(accessToken);
+      let accessToken: string = await getToken();
+      let requestURL: string = `${protocol}://${region}.${domain}/${playableClassesIndexEndpoint}?namespace=${namespace}&locale=${locale}&access_token=${accessToken}`;
+      let requestConfig: BlizzardAuthHeaders = createAuthHeaders(accessToken);
       let retrievedIndex = await axios.get(requestURL, requestConfig);
 
       if (verbose) {
