@@ -1,8 +1,9 @@
 import { getToken } from './getToken';
-import { getItemClassesIndex } from './items';
+import { getItemClassesIndex, getItem } from './items';
 import { getPlayableClassesIndex } from './classes';
 
 getToken().then(() => {
-  getItemClassesIndex();
+  getItemClassesIndex({ verbose: true });
+  getItem(19019, { verbose: true });
   getPlayableClassesIndex();
 });

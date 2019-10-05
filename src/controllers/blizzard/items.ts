@@ -8,7 +8,23 @@ import { createAuthHeaders, urlConfig } from './shared';
 // ===============
 // DEFAULT OPTIONS
 // ===============
-const _getCharacterDefaultOptions = {
+const _getItemClassesIndexDefaultOptions: BasicFunctionOptions = {
+  verbose: false,
+};
+
+const _getItemClassDefaultOptions: BasicFunctionOptions = {
+  verbose: false,
+};
+
+const _getItemSubclassDefaultOptions: BasicFunctionOptions = {
+  verbose: false,
+};
+
+const _getItemMediaDefaultOptions: BasicFunctionOptions = {
+  verbose: false,
+};
+
+const _getItemDefaultOptions: BasicFunctionOptions = {
   verbose: false,
 };
 
@@ -29,20 +45,20 @@ var itemClassesIndex: null | PlaceholderObject = null;
 
 export const getItemClassesIndex = async ({
   verbose,
-}: BasicFunctionOptions = _getCharacterDefaultOptions) => {
+}: BasicFunctionOptions = _getItemClassesIndexDefaultOptions) => {
   // API ENDPOINT
   const itemClassesIndexEndpoint = 'data/wow/item-class/index';
 
   if (verbose) {
     console.log(
-      'itemClassesIndex --- checking if module itemClassesIndex storage is empty...\n'
+      'getItemClassesIndex --- checking if module itemClassesIndex storage is empty...\n'
     );
   }
 
   if (itemClassesIndex) {
     if (verbose) {
       console.log(
-        'itemClassesIndex --- itemClassesIndex has been retrieved from the module storage...\n'
+        'getItemClassesIndex --- itemClassesIndex has been retrieved from the module storage...\n'
       );
       console.log('itemClassesIndex --- ', itemClassesIndex, '\n');
     }
@@ -51,7 +67,7 @@ export const getItemClassesIndex = async ({
   } else {
     if (verbose) {
       console.log(
-        'itemClassesIndex --- itemClassesIndex is empty; attempting to retrieve list...\n'
+        'getItemClassesIndex --- itemClassesIndex is empty; attempting to retrieve list...\n'
       );
     }
 
@@ -63,8 +79,8 @@ export const getItemClassesIndex = async ({
       let retrievedIndex = await axios.get(requestURL, requestConfig);
 
       if (verbose) {
-        console.log('itemClassesIndex --- itemClassesIndex retrieved!\n');
-        console.log('itemClassesIndex --- ', retrievedIndex.data, '\n');
+        console.log('getItemClassesIndex --- itemClassesIndex retrieved!\n');
+        console.log('getItemClassesIndex --- ', retrievedIndex.data, '\n');
       }
 
       itemClassesIndex = retrievedIndex.data;
@@ -74,5 +90,135 @@ export const getItemClassesIndex = async ({
       // TODO: Create a more robust error message
       console.error(error);
     }
+  }
+};
+
+export const getItemClass = async (
+  itemClassId: number,
+  { verbose }: BasicFunctionOptions = _getItemClassDefaultOptions
+) => {
+  // API ENDPOINT
+  const itemClassEndpoint = '/data/wow/item-class';
+
+  if (verbose) {
+    console.log(
+      'getItemClass --- retrieving the supplied class: ',
+      itemClassId,
+      '\n'
+    );
+  }
+
+  try {
+    const { protocol, region, domain, namespace, locale } = urlConfig;
+    let accessToken = await getToken();
+    let requestURL = `${protocol}://${region}.${domain}/${itemClassEndpoint}/${itemClassId}?namespace=${namespace}&locale=${locale}&access_token=${accessToken}`;
+    let requestConfig: BlizzardAuthHeaders = createAuthHeaders(accessToken);
+    let retrievedItemClass = await axios.get(requestURL, requestConfig);
+
+    if (verbose) {
+      console.log('getItemClass --- ItemClass retrieved!\n');
+      console.log('getItemClass --- ', retrievedItemClass.data, '\n');
+    }
+
+    return retrievedItemClass.data;
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+export const getItemSubclass = async (
+  itemClassId: number,
+  itemSubclassId: number,
+  { verbose }: BasicFunctionOptions = _getItemSubclassDefaultOptions
+) => {
+  // API ENDPOINT
+  const itemSubclassEndpoint: string = `/data/wow/item-class/${itemClassId}/item-subclass/${itemSubclassId}`;
+
+  if (verbose) {
+    console.log(
+      'getItemSubclass --- retrieving the supplied class: ',
+      itemClassId,
+      itemSubclassId,
+      '\n'
+    );
+  }
+
+  try {
+    const { protocol, region, domain, namespace, locale } = urlConfig;
+    let accessToken = await getToken();
+    let requestURL = `${protocol}://${region}.${domain}/${itemSubclassEndpoint}?namespace=${namespace}&locale=${locale}&access_token=${accessToken}`;
+    let requestConfig: BlizzardAuthHeaders = createAuthHeaders(accessToken);
+    let retrievedItemSubclass = await axios.get(requestURL, requestConfig);
+
+    if (verbose) {
+      console.log('getItemSubclass --- Item Sublcass retrieved!\n');
+      console.log('getItemSubclass --- ', retrievedItemSubclass.data, '\n');
+    }
+
+    return retrievedItemSubclass.data;
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+export const getItemMedia = async (
+  itemId: number,
+  { verbose }: BasicFunctionOptions = _getItemMediaDefaultOptions
+) => {
+  // API ENDPOINT
+  const itemMediaEndpoint = '/data/wow/media/item';
+
+  if (verbose) {
+    console.log(
+      'getItemMedia --- retrieving the supplied class: ',
+      itemId,
+      '\n'
+    );
+  }
+
+  try {
+    const { protocol, region, domain, namespace, locale } = urlConfig;
+    let accessToken = await getToken();
+    let requestURL = `${protocol}://${region}.${domain}/${itemMediaEndpoint}/${itemId}?namespace=${namespace}&locale=${locale}&access_token=${accessToken}`;
+    let requestConfig: BlizzardAuthHeaders = createAuthHeaders(accessToken);
+    let retrievedItemMedia = await axios.get(requestURL, requestConfig);
+
+    if (verbose) {
+      console.log('getItemMedia --- Item retrieved!\n');
+      console.log('getItemMedia --- ', retrievedItemMedia.data, '\n');
+    }
+
+    return retrievedItemMedia.data;
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+export const getItem = async (
+  itemId: number,
+  { verbose }: BasicFunctionOptions = _getItemDefaultOptions
+) => {
+  // API ENDPOINT
+  const itemEndpoint = '/data/wow/item';
+
+  if (verbose) {
+    console.log('getItem --- retrieving the supplied item: ', itemId, '\n');
+  }
+
+  try {
+    const { protocol, region, domain, namespace, locale } = urlConfig;
+    let accessToken = await getToken();
+    let requestURL = `${protocol}://${region}.${domain}/${itemEndpoint}/${itemId}?namespace=${namespace}&locale=${locale}&access_token=${accessToken}`;
+    let requestConfig: BlizzardAuthHeaders = createAuthHeaders(accessToken);
+    let retrievedItemMedia = await axios.get(requestURL, requestConfig);
+
+    if (verbose) {
+      console.log('getItem --- Item retrieved!\n');
+      console.log('getItem --- ', retrievedItemMedia.data, '\n');
+    }
+
+    return retrievedItemMedia.data;
+  } catch (error) {
+    console.error(error);
   }
 };
