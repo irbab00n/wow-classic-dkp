@@ -2,7 +2,7 @@ import axios from 'axios';
 import { BasicFunctionOptions } from '../../interfaces/internal/BasicFunctionOptions';
 import { PlaceholderObject } from '../../interfaces/internal/PlaceholderObject';
 import { getToken } from './getToken';
-import { createAuthHeaders } from './shared';
+import { createAuthHeaders, urlConfig } from './shared';
 
 // ===============
 // DEFAULT OPTIONS
@@ -16,16 +16,6 @@ const _getCharacterDefaultOptions = {
 // ==============
 const ERROR_PLAYABLE_CLASS_INDEX_FETCH_FAILED =
   'getPlayableClassesIndex --- Something went wrong while attempting to retrieve the playable class index from the WoW Classic API';
-
-// ==============
-// MODULE CONFIGS
-// ==============
-// ! If this app is to ever support consumers outside of the US, we will have to address this at that time.
-const protocol = 'https';
-const region = 'us';
-const domain = 'api.blizzard.com';
-const namespace = 'static-classic-us';
-const locale = 'en_US';
 
 // ==============
 // MODULE STORAGE
@@ -71,6 +61,8 @@ export const getPlayableClassesIndex = async ({
     }
 
     try {
+      const { protocol, region, domain, namespace, locale } = urlConfig;
+
       let accessToken = await getToken();
       let requestURL = `${protocol}://${region}.${domain}/${playableClassesIndexEndpoint}?namespace=${namespace}&locale=${locale}&access_token=${accessToken}`;
       let requestConfig: PlaceholderObject = createAuthHeaders(accessToken);
