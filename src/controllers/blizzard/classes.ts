@@ -1,7 +1,6 @@
-import express from 'express';
 import axios from 'axios';
 import { BasicFunctionOptions } from '../../interfaces/internal/BasicFunctionOptions';
-import { PlaceholderObject } from '../../Interfaces/internal/PlaceholderObject';
+import { PlaceholderObject } from '../../interfaces/internal/PlaceholderObject';
 import { getToken } from './getToken';
 import { createAuthHeaders } from './shared';
 
@@ -16,7 +15,7 @@ const _getCharacterDefaultOptions = {
 // ERROR MESSAGES
 // ==============
 const ERROR_PLAYABLE_CLASS_INDEX_FETCH_FAILED =
-  'playableClassesIndex --- Something went wrong while attempting to retrieve the playable class index from the WoW Classic API';
+  'getPlayableClassesIndex --- Something went wrong while attempting to retrieve the playable class index from the WoW Classic API';
 
 // ==============
 // MODULE CONFIGS
@@ -24,7 +23,7 @@ const ERROR_PLAYABLE_CLASS_INDEX_FETCH_FAILED =
 // ! If this app is to ever support consumers outside of the US, we will have to address this at that time.
 const protocol = 'https';
 const region = 'us';
-const blizzard_api = 'api.blizzard.com';
+const domain = 'api.blizzard.com';
 const namespace = 'static-classic-us';
 const locale = 'en_US';
 
@@ -32,8 +31,8 @@ const locale = 'en_US';
 // MODULE STORAGE
 // ==============
 
-// Module storage for the Item Classes Index
-// Item Classes are generic groups of items;
+// Module storage for the Playable Classes Index
+// Playable Classes contain the name of the class as well as a class_id that we can use to inject into other queries
 var playableClassesIndex: null | PlaceholderObject = null;
 
 // =======
@@ -46,7 +45,9 @@ var playableClassesIndex: null | PlaceholderObject = null;
 export const getPlayableClassesIndex = async ({
   verbose,
 }: BasicFunctionOptions = _getCharacterDefaultOptions) => {
+  // API ENDPOINT
   const playableClassesIndexEndpoint = 'data/wow/playable-class/index';
+
   if (verbose) {
     console.log(
       'playableClassesIndex --- checking if module playableClassesIndex storage is empty...\n'
@@ -58,7 +59,9 @@ export const getPlayableClassesIndex = async ({
       console.log(
         'playableClassesIndex --- playableClassesIndex has been retrieved from the module storage...\n'
       );
+      console.log('playableClassesIndex --- ', playableClassesIndex, '\n');
     }
+
     return playableClassesIndex;
   } else {
     if (verbose) {
@@ -66,26 +69,30 @@ export const getPlayableClassesIndex = async ({
         'playableClassesIndex --- playableClassesIndex is empty; attempting to retrieve list...\n'
       );
     }
-    let accessToken = await getToken();
-    let requestURL = `${protocol}://${region}.${blizzard_api}/${playableClassesIndexEndpoint}?namespace=${namespace}&locale=${locale}&access_token=${accessToken}`;
-    let requestConfig: PlaceholderObject = createAuthHeaders(accessToken);
-    let retrievedIndex = await axios.get(requestURL, requestConfig);
-    if (retrievedIndex) {
+
+    try {
+      let accessToken = await getToken();
+      let requestURL = `${protocol}://${region}.${domain}/${playableClassesIndexEndpoint}?namespace=${namespace}&locale=${locale}&access_token=${accessToken}`;
+      let requestConfig: PlaceholderObject = createAuthHeaders(accessToken);
+      let retrievedIndex = await axios.get(requestURL, requestConfig);
+
       if (verbose) {
         console.log(
           'playableClassesIndex --- playableClassesIndex retrieved!\n'
         );
         console.log('playableClassesIndex --- ', retrievedIndex.data, '\n');
       }
+
+      // Set the retrieved data in the module storage for later
       playableClassesIndex = retrievedIndex.data;
-      return retrievedIndex;
-    } else {
-      console.error(
-        'retrieved Index was not the expected result: ',
-        retrievedIndex
-      );
-      throw new Error(ERROR_PLAYABLE_CLASS_INDEX_FETCH_FAILED);
+
+      // Then return it to the user
+      return retrievedIndex.data;
+    } catch (error) {
+      // TODO: Write a more robust error message format that will allow me to crack open the error supplied in the catch block and display it easily in the console
+      console.error(ERROR_PLAYABLE_CLASS_INDEX_FETCH_FAILED, error);
     }
+
     // ! Keeping this here for now as a reference if we need to move from the async/await pattern
     // return axios.get(requestURL, requestConfig)
     //   .then((results: any) => {

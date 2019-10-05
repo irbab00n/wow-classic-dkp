@@ -1,4 +1,4 @@
-import { BasicFunctionOptions } from './Interfaces/internal/BasicFunctionOptions';
+import { BasicFunctionOptions } from './interfaces/internal/BasicFunctionOptions';
 import { readdirSync } from 'fs';
 import path from 'path';
 

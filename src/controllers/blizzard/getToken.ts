@@ -1,7 +1,7 @@
 import { AuthToken } from '../../interfaces/blizzard/AuthToken';
-import { BasicFunctionOptions } from '../../Interfaces/internal/BasicFunctionOptions';
-import { PlaceholderObject } from '../../Interfaces/internal/PlaceholderObject';
-import credentials from '../../templates/blizzard_credentials';
+import { BasicFunctionOptions } from '../../interfaces/internal/BasicFunctionOptions';
+import { PlaceholderObject } from '../../interfaces/internal/PlaceholderObject';
+import credentials from '../../templates/blizzardCredentials';
 
 const oauth2 = require('simple-oauth2').create(credentials);
 
@@ -23,13 +23,15 @@ var token: null | PlaceholderObject = null;
  * return only the string-based access token to be used in every single
  * Blizzard API call.
  *
- * If the token doesn't exist it will retrieve one, 
+ * If the token doesn't exist it will retrieve one,
  * set it into the module storage and then return the access token.
  *
  * If the token already exists, then it will return the access token directly
  * @param options Config options object for the getToken method.
  */
-export const getToken = ({ verbose }: BasicFunctionOptions = _defaultOptions) => {
+export const getToken = ({
+  verbose,
+}: BasicFunctionOptions = _defaultOptions) => {
   if (verbose) {
     console.log('-------------------------------------------- \n');
     console.log('~*~ Blizzard Controller: getToken module --- running... \n');

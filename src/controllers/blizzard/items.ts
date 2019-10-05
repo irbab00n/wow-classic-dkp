@@ -1,21 +1,8 @@
-import express from 'express';
 import axios from 'axios';
 import { BasicFunctionOptions } from '../../interfaces/internal/BasicFunctionOptions';
-import { PlaceholderObject } from '../../Interfaces/internal/PlaceholderObject';
+import { PlaceholderObject } from '../../interfaces/internal/PlaceholderObject';
 import { getToken } from './getToken';
 import { createAuthHeaders } from './shared';
-
-// ==============
-// MODULE CONFIGS
-// ==============
-// ! If this app is to ever support consumers outside of the US, we will have to address this at that time.
-const protocol = 'https';
-const region = 'us';
-const blizzard_api = 'api.blizzard.com';
-const namespace = 'static-classic-us';
-const locale = 'en_US';
-
-// 'https://us.api.blizzard.com/data/wow/item-class/index?namespace=static-classic-us&locale=en_US&access_token=USIAYENhtI5XT12uEu8kbcsCtuch7YsdGt'
 
 // ===============
 // DEFAULT OPTIONS
@@ -24,18 +11,37 @@ const _getCharacterDefaultOptions = {
   verbose: false,
 };
 
+// ==============
+// MODULE CONFIGS
+// ==============
+// ! If this app is to ever support consumers outside of the US, we will have to address this at that time.
+const protocol = 'https';
+const region = 'us';
+const domain = 'api.blizzard.com';
+const namespace = 'static-classic-us';
+const locale = 'en_US';
+
+// ==============
+// MODULE STORAGE
+// ==============
+
+// Module storage for the Item Classes Index
+// Item Classes are generic groups of items
+var itemClassesIndex: null | PlaceholderObject = null;
+
 // =======
 // EXPORTS
 // =======
 
 // Module storage for the Item Classes Index
 // Item Classes are generic groups of items;
-var itemClassesIndex: null | PlaceholderObject = null;
 
 export const getItemClassesIndex = async ({
   verbose,
 }: BasicFunctionOptions = _getCharacterDefaultOptions) => {
+  // API ENDPOINT
   const itemClassesIndexEndpoint = 'data/wow/item-class/index';
+
   if (verbose) {
     console.log(
       'itemClassesIndex --- checking if module itemClassesIndex storage is empty...\n'
@@ -47,7 +53,9 @@ export const getItemClassesIndex = async ({
       console.log(
         'itemClassesIndex --- itemClassesIndex has been retrieved from the module storage...\n'
       );
+      console.log('itemClassesIndex --- ', itemClassesIndex, '\n');
     }
+
     return itemClassesIndex;
   } else {
     if (verbose) {
@@ -55,23 +63,25 @@ export const getItemClassesIndex = async ({
         'itemClassesIndex --- itemClassesIndex is empty; attempting to retrieve list...\n'
       );
     }
-    let accessToken = await getToken({ verbose: true });
-    let requestURL = `${protocol}://${region}.${blizzard_api}/${itemClassesIndexEndpoint}?namespace=${namespace}&locale=${locale}&access_token=${accessToken}`;
-    let requestConfig: PlaceholderObject = createAuthHeaders(accessToken);
-    return axios
-      .get(requestURL, requestConfig)
-      .then((results: any) => {
+
+    try {
+      let accessToken = await getToken();
+      let requestURL = `${protocol}://${region}.${domain}/${itemClassesIndexEndpoint}?namespace=${namespace}&locale=${locale}&access_token=${accessToken}`;
+      let requestConfig: PlaceholderObject = createAuthHeaders(accessToken);
+      let retrievedIndex = await axios.get(requestURL, requestConfig);
+
+      if (verbose) {
         console.log('itemClassesIndex --- itemClassesIndex retrieved!\n');
-        console.log('itemClassesIndex --- ', results.data, '\n');
-        itemClassesIndex = results.data;
-        return results.data;
-      })
-      .catch((error: any) => {
-        console.log(
-          'itemClassesIndex --- Something went wrong while attempting to retrieve the Item Classes Index: ',
-          error
-        );
-      });
+        console.log('itemClassesIndex --- ', retrievedIndex.data, '\n');
+      }
+
+      itemClassesIndex = retrievedIndex.data;
+
+      return retrievedIndex.data;
+    } catch (error) {
+      // TODO: Create a more robust error message
+      console.error(error);
+    }
   }
 };
 
