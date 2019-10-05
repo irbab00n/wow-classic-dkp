@@ -1,0 +1,17 @@
+class: Priest
+class_id: 5
+playable_races:
+  horde:
+    - Undead
+    - Troll
+  alliance:
+    - Human
+    - Night Elf
+    - Gnome
+gear:
+  tier:
+    1:
+      name: Vestments of Prophecy
+      head:
+        name: 
+        gear_id:

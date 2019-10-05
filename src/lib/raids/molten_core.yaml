@@ -1,0 +1,23 @@
+name: Molten Core
+map_id: 2717
+raid_size: 40
+bosses:
+  - Lucifron:
+    npc_id: 12118
+    loot_table:
+      - Arcanist Boots:
+        item_id: 16800
+      - Felheart Gloves:
+        item_id: 16805
+      - Cenarion Boots:
+        item_id: 16829
+      - Earthfury Boots:
+        item_id: 16837
+      - Lawbringer Boots:
+        item_id: 16859
+      - Gauntlets of Might:
+        item_id: 16863
+      - Helm of the Lifegiver:
+        item_id: 18870
+        
+
