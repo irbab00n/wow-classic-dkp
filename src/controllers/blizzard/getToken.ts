@@ -1,6 +1,5 @@
 import { AuthToken } from '../../interfaces/blizzard/AuthToken';
 import { BasicFunctionOptions } from '../../interfaces/internal/BasicFunctionOptions';
-import { PlaceholderObject } from '../../interfaces/internal/PlaceholderObject';
 import credentials from '../../templates/blizzardCredentials';
 
 const oauth2 = require('simple-oauth2').create(credentials);
@@ -12,7 +11,7 @@ const _defaultOptions: BasicFunctionOptions = {
 
 // Module storage for the token
 // TODO: Define the interface for the token and replace this placeholder
-var token: null | PlaceholderObject = null;
+var token: null | AuthToken = null;
 
 /**
  * @function getToken
@@ -29,7 +28,7 @@ var token: null | PlaceholderObject = null;
  * If the token already exists, then it will return the access token directly
  * @param options Config options object for the getToken method.
  */
-export const getToken = ({
+export const getToken = async ({
   verbose,
 }: BasicFunctionOptions = _defaultOptions) => {
   if (verbose) {
@@ -54,6 +53,7 @@ export const getToken = ({
       );
       console.log('-------------------------------------------- \n');
     }
+
     // Returns the result of an async call to get the client credentials where
     // oauth creates an access token, and then sets the module token storage to
     // the access token that returns from the oauth token
