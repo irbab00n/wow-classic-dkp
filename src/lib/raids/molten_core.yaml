@@ -2,20 +2,62 @@ name: Molten Core
 map_id: 2717
 raid_size: 40
 bosses:
-  - Lucifron:
+  - 0:
+    name: Lucifron
     npc_id: 12118
     loot_table:
-      - Arcanist Boots:
+      - 0:
+        name: Arcanist Boots
         item_id: 16800
-      - Felheart Gloves:
+
+      - 1:
+        name: Felheart Gloves
         item_id: 16805
-      - Cenarion Boots:
+      - 2:
+        name: Cenarion Boots
         item_id: 16829
-      - Earthfury Boots:
+      - 3:
+        name: Earthfury Boots
         item_id: 16837
-      - Lawbringer Boots:
+      - 4:
+        name: Lawbringer Boots
         item_id: 16859
-      - Gauntlets of Might:
+      - 5:
+        name: Gauntlets of Might
         item_id: 16863
-      - Helm of the Lifegiver:
+      - 6:
+        name: Helm of the Lifegiver
         item_id: 18870
+      - 7:
+        name: Choker of Enlightenment
+        item_id: 17109
+      - 8:
+        name: Robe of Volatile Power
+        item_id: 19145
+      - 9:
+        name: Wristguards of Stability
+        item_id: 19146
+      - 10:
+        name: Manastorm Leggings
+        item_id: 18872
+      - 11:
+        name: Salamander Scale Pants
+        item_id: 18875
+      - 12:
+        name: Flamewaker Legplates
+        item_id: 18861
+      - 13:
+        name: Heavy Dark Iron Ring
+        item_id: 18879
+      - 14:
+        name: Ring of Spell Power
+        item_id: 19147
+      - 15:
+        name: Crimson Shocker
+        item_id: 17077
+      - 16:
+        name: Sorcerous Dagger
+        item_id: 18878
+      - 17:
+        name: Tome of Tranquilizing Shot
+        item_id: 16665

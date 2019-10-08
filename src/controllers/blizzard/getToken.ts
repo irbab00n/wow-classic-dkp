@@ -29,6 +29,7 @@ var token: null | AuthToken = null;
  * @param options Config options object for the getToken method.
  * @returns The string-based access_token field that will exist on the OAuth Token
  */
+
 export const getToken = async ({
   verbose,
 }: BasicFunctionOptions = _defaultOptions): Promise<string> => {

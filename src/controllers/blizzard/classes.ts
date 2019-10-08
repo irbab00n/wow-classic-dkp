@@ -92,17 +92,7 @@ export const getPlayableClassesIndex = async ({
       // TODO: Write a more robust error message format that will allow me to crack open the error supplied in the catch block and display it easily in the console
       console.error(ERROR_PLAYABLE_CLASS_INDEX_FETCH_FAILED, error);
     }
-
-    // ! Keeping this here for now as a reference if we need to move from the async/await pattern
-    // return axios.get(requestURL, requestConfig)
-    //   .then((results: any) => {
-    //     console.log('playableClassesIndex --- playableClassesIndex retrieved!\n');
-    //     console.log('playableClassesIndex --- ', results.data, '\n');
-    //     playableClassesIndex = results.data;
-    //     return results.data;
-    //   })
-    //   .catch((error: any) => {
-    //     console.log('playableClassesIndex --- Something went wrong while attempting to retrieve the Item Classes Index: ', error);
-    //   });
   }
 };
+
+export const getPlayableClass = async () => {};
