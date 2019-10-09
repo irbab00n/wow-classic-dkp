@@ -1,8 +1,5 @@
 [
   {
-    "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/0?namespace=static-1.13.2_31446-classic-us"
-    },
     "name": "Consumable",
     "id": 0,
     "_links": {
@@ -22,9 +19,6 @@
     ]
   },
   {
-    "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/1?namespace=static-1.13.2_31446-classic-us"
-    },
     "name": "Container",
     "id": 1,
     "_links": {
@@ -72,9 +66,6 @@
     ]
   },
   {
-    "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-1.13.2_31446-classic-us"
-    },
     "name": "Weapon",
     "id": 2,
     "_links": {
@@ -227,9 +218,6 @@
     ]
   },
   {
-    "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
-    },
     "name": "Armor",
     "id": 4,
     "_links": {
@@ -305,9 +293,6 @@
     ]
   },
   {
-    "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/5?namespace=static-1.13.2_31446-classic-us"
-    },
     "name": "Reagent",
     "id": 5,
     "_links": {
@@ -327,9 +312,6 @@
     ]
   },
   {
-    "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/6?namespace=static-1.13.2_31446-classic-us"
-    },
     "name": "Projectile",
     "id": 6,
     "_links": {
@@ -356,9 +338,6 @@
     ]
   },
   {
-    "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/7?namespace=static-1.13.2_31446-classic-us"
-    },
     "name": "Trade Goods",
     "id": 7,
     "_links": {
@@ -399,9 +378,6 @@
     ]
   },
   {
-    "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/9?namespace=static-1.13.2_31446-classic-us"
-    },
     "name": "Recipe",
     "id": 9,
     "_links": {
@@ -484,9 +460,6 @@
     ]
   },
   {
-    "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/11?namespace=static-1.13.2_31446-classic-us"
-    },
     "name": "Quiver",
     "id": 11,
     "_links": {
@@ -513,9 +486,6 @@
     ]
   },
   {
-    "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/12?namespace=static-1.13.2_31446-classic-us"
-    },
     "name": "Quest",
     "id": 12,
     "_links": {
@@ -535,9 +505,6 @@
     ]
   },
   {
-    "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/13?namespace=static-1.13.2_31446-classic-us"
-    },
     "name": "Key",
     "id": 13,
     "_links": {
@@ -564,9 +531,6 @@
     ]
   },
   {
-    "key": {
-      "href": "https://us.api.blizzard.com/data/wow/item-class/15?namespace=static-1.13.2_31446-classic-us"
-    },
     "name": "Miscellaneous",
     "id": 15,
     "_links": {
