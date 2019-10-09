@@ -9,7 +9,6 @@ bosses:
       - 0:
         name: Arcanist Boots
         item_id: 16800
-
       - 1:
         name: Felheart Gloves
         item_id: 16805

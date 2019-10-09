@@ -1,0 +1,583 @@
+[
+  {
+    "name": "Wolf",
+    "id": 1,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/1?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/1?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 1,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/1?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_hunter_pet_wolf.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Cat",
+    "id": 2,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/2?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/2?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 2,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/2?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_hunter_pet_cat.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Spider",
+    "id": 3,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/3?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/3?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 3,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/3?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_hunter_pet_spider.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Bear",
+    "id": 4,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/4?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/4?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 4,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/4?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_hunter_pet_bear.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Boar",
+    "id": 5,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/5?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/5?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 5,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/5?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_hunter_pet_boar.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Crocolisk",
+    "id": 6,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/6?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/6?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 6,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/6?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_hunter_pet_crocolisk.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Carrion Bird",
+    "id": 7,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/7?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/7?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 7,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/7?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_hunter_pet_vulture.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Crab",
+    "id": 8,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/8?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/8?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 8,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/8?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_hunter_pet_crab.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Gorilla",
+    "id": 9,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/9?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/9?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 9,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/9?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_hunter_pet_gorilla.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Raptor",
+    "id": 11,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/11?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/11?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 11,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/11?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_hunter_pet_raptor.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Tallstrider",
+    "id": 12,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/12?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/12?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 12,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/12?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_hunter_pet_tallstrider.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Felhunter",
+    "id": 15,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/15?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/15?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 15,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/15?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_druid_catform.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Voidwalker",
+    "id": 16,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/16?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/16?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 16,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/16?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_druid_catform.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Succubus",
+    "id": 17,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/17?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/17?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 17,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/17?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_druid_catform.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Doomguard",
+    "id": 19,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/19?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/19?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 19,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/19?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_druid_catform.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Scorpid",
+    "id": 20,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/20?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/20?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 20,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/20?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_hunter_pet_scorpid.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Turtle",
+    "id": 21,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/21?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/21?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 21,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/21?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_hunter_pet_turtle.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Imp",
+    "id": 23,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/23?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/23?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 23,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/23?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_druid_catform.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Bat",
+    "id": 24,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/24?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/24?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 24,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/24?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_hunter_pet_bat.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hyena",
+    "id": 25,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/25?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/25?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 25,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/25?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_hunter_pet_hyena.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Owl",
+    "id": 26,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/26?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/26?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 26,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/26?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_hunter_pet_owl.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Wind Serpent",
+    "id": 27,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/27?namespace=static-1.13.2_31446-classic-us"
+      }
+    },
+    "media": {
+      "key": {
+        "href": "https://us.api.blizzard.com/data/wow/media/creature-family/27?namespace=static-1.13.2_31446-classic-us"
+      },
+      "id": 27,
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/media/creature-family/27?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "assets": [
+        {
+          "key": "icon",
+          "value": "https://render-classic-us.worldofwarcraft.com/icons/56/ability_hunter_pet_windserpent.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Remote Control",
+    "id": 28,
+    "_links": {
+      "self": {
+        "href": "https://us.api.blizzard.com/data/wow/creature-family/28?namespace=static-1.13.2_31446-classic-us"
+      }
+    }
+  }
+]
