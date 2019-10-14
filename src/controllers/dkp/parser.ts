@@ -2,6 +2,8 @@ import csv from 'csv-parser';
 import fs from 'fs';
 import path from 'path';
 
+import { getItem } from '../blizzard/items';
+
 // look for all files that include dkp-history
 // import them
 // if the file name includes a valid 8 digit date code; MMDDYYYY
@@ -9,7 +11,7 @@ import path from 'path';
 // import the raw data
 // normalize into object-based format, passing through the filename, and the date extracted
 
-const filename = 'dkp-history';
+const filename = 'loot-history-10132019';
 
 // JSON file writing helper function
 const writeDataToJSON = async (data: any, filename: string) => {
@@ -30,7 +32,7 @@ const writeDataToJSON = async (data: any, filename: string) => {
 /**
  *
  * @description
- * Reads the raw CSV data from the Monolith DKP export
+ * Reads the raw CSV data from the Monolith DKP History export
  *
  * Extracts the Headers
  * - Currently just reads the headers
@@ -47,7 +49,7 @@ const writeDataToJSON = async (data: any, filename: string) => {
  *      value: '230'
  *    }
  */
-const normalizeMonolithCSV = (data: any) => {
+const normalizeDKPHistoryCSV = (data: any) => {
   // console.log('data to normalize from the CSV: ', data);
   // collect the keys of the CSV parse object
   // iterate through the keys and create the
@@ -110,15 +112,71 @@ const normalizeMonolithCSV = (data: any) => {
   }
 };
 
+const normalizeLootHistoryCSV = (data: any) => {
+  // console.log('data to normalize from the CSV: ', data);
+  // collect the keys of the CSV parse object
+  // iterate through the keys and create the
+  try {
+    const entryLength = 7;
+    // ----- CONFIG -----
+    const csvEntries: any = Object.entries(data); // extracts the key/value pairs into an array [['key', 'value'], ...]
+    // format the first entry
+    csvEntries[0][1] = csvEntries[0][1].replace('LootHistory = ', '');
+    let formattedEntries = csvEntries.map((entry: any) => entry[1]);
+    // console.log('parsed CSV entries: ', formattedEntries);
+
+    // ----- ENTIRES -----
+    let lootHistoryEntries = [];
+    for (let i = 0; i < formattedEntries.length; i += entryLength) {
+      let [
+        recipient,
+        item,
+        item_id,
+        zone,
+        boss,
+        date,
+        cost,
+      ] = formattedEntries.slice(i, i + entryLength);
+      lootHistoryEntries.push({
+        recipient,
+        item,
+        item_id,
+        zone,
+        boss,
+        date,
+        cost,
+      });
+    }
+    console.log('formatted loot history entries: ', lootHistoryEntries);
+
+    return lootHistoryEntries;
+  } catch (error) {
+    console.error(
+      'Something went wrong trying to normalize the CSV data: ',
+      error.message
+    );
+  }
+};
+
 // Reads the csv data, and runs it through the normalization function
 // TODO:
-export const parserTest = async () => {
+export const parserTest = () => {
   try {
     fs.createReadStream(path.resolve(__dirname, `${filename}.csv`))
       .pipe(csv())
-      .on('data', (data: any) => {
-        let normalizedData = normalizeMonolithCSV(data);
-        writeDataToJSON(normalizedData, `${filename}-normalized`);
+      .on('data', async (data: any) => {
+        // Normalize the data
+        let normalizedData = normalizeLootHistoryCSV(data);
+
+        // Expand the item data
+        let mappedData = normalizedData.map(async (dataEntry: any) => {
+          let itemData = await getItem(dataEntry.item_id);
+          dataEntry.item = itemData;
+          return dataEntry;
+        });
+        let fullMappedData = await Promise.all(mappedData);
+        console.log('full mapped loot history data: ', fullMappedData);
+        writeDataToJSON(fullMappedData, `${filename}-normalized`);
       });
   } catch (error) {
     console.error(

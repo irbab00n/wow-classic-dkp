@@ -1,0 +1,3541 @@
+[
+  {
+    "recipient": "Backstrokes",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/18422?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 18422,
+      "name": "Head of Onyxia",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 60,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/18422?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 18422
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/12?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Quest",
+        "id": 12
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Quest",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "NON_EQUIP",
+        "name": "Non-equippable"
+      },
+      "purchase_price": 0,
+      "sell_price": 0,
+      "max_count": 1,
+      "is_equippable": false,
+      "is_stackable": false,
+      "description": "The head of the Black Dragonflight's Brood Mother"
+    },
+    "item_id": "18422",
+    "zone": "Onyxia's Lair",
+    "boss": "Onyxia",
+    "date": "1570931375",
+    "cost": "66.272"
+  },
+  {
+    "recipient": "Pkb",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/17966?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 17966,
+      "name": "Onyxia Hide Backpack",
+      "quality": {
+        "type": "UNCOMMON",
+        "name": "Uncommon"
+      },
+      "level": 55,
+      "required_level": 0,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/17966?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 17966
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/1?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Container",
+        "id": 1
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Bag",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "BAG",
+        "name": "Bag"
+      },
+      "purchase_price": 35000,
+      "sell_price": 8750,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "17966",
+    "zone": "Onyxia's Lair",
+    "boss": "Onyxia",
+    "date": "1570931235",
+    "cost": "35.425"
+  },
+  {
+    "recipient": "Wes",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16908?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16908,
+      "name": "Bloodfang Hood",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 76,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16908?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16908
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "HEAD",
+        "name": "Head"
+      },
+      "purchase_price": 278536,
+      "sell_price": 55707,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16908",
+    "zone": "Onyxia's Lair",
+    "boss": "Onyxia",
+    "date": "1570931112",
+    "cost": "153.743"
+  },
+  {
+    "recipient": "Miranda",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16900?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16900,
+      "name": "Stormrage Cover",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 76,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16900?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16900
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "HEAD",
+        "name": "Head"
+      },
+      "purchase_price": 270555,
+      "sell_price": 54111,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16900",
+    "zone": "Onyxia's Lair",
+    "boss": "Onyxia",
+    "date": "1570931031",
+    "cost": "110.814"
+  },
+  {
+    "recipient": "Verminfate",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/18813?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 18813,
+      "name": "Ring of Binding",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 73,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/18813?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 18813
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Miscellaneous",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "FINGER",
+        "name": "Finger"
+      },
+      "purchase_price": 356412,
+      "sell_price": 89103,
+      "max_count": 1,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "18813",
+    "zone": "Onyxia's Lair",
+    "boss": "Onyxia",
+    "date": "1570930946",
+    "cost": "66.85"
+  },
+  {
+    "recipient": "Slaughterous",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/17068?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 17068,
+      "name": "Deathbringer",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 75,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/17068?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 17068
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Weapon",
+        "id": 2
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Axe",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "WEAPON",
+        "name": "One-Hand"
+      },
+      "purchase_price": 674164,
+      "sell_price": 134832,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "17068",
+    "zone": "Onyxia's Lair",
+    "boss": "Onyxia",
+    "date": "1570930828",
+    "cost": "181.2"
+  },
+  {
+    "recipient": "Patiki",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/17106?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 17106,
+      "name": "Malistar's Defender",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 75,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/17106?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 17106
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Shield",
+        "id": 6
+      },
+      "inventory_type": {
+        "type": "SHIELD",
+        "name": "Off Hand"
+      },
+      "purchase_price": 439804,
+      "sell_price": 87960,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "17106",
+    "zone": "Molten Core",
+    "boss": "Ragnaros",
+    "date": "1570761590",
+    "cost": "148.05"
+  },
+  {
+    "recipient": "Durango",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16962?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16962,
+      "name": "Legplates of Wrath",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 76,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16962?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16962
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Plate",
+        "id": 4
+      },
+      "inventory_type": {
+        "type": "LEGS",
+        "name": "Legs"
+      },
+      "purchase_price": 298263,
+      "sell_price": 59652,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16962",
+    "zone": "Molten Core",
+    "boss": "Ragnaros",
+    "date": "1570761452",
+    "cost": "149.1"
+  },
+  {
+    "recipient": "Shurq",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16930?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16930,
+      "name": "Nemesis Leggings",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 76,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16930?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16930
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Cloth",
+        "id": 1
+      },
+      "inventory_type": {
+        "type": "LEGS",
+        "name": "Legs"
+      },
+      "purchase_price": 277879,
+      "sell_price": 55575,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16930",
+    "zone": "Molten Core",
+    "boss": "Ragnaros",
+    "date": "1570761367",
+    "cost": "189"
+  },
+  {
+    "recipient": "Backstrokes",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/18815?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 18815,
+      "name": "Essence of the Pure Flame",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 75,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/18815?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 18815
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Miscellaneous",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "TRINKET",
+        "name": "Trinket"
+      },
+      "purchase_price": 256380,
+      "sell_price": 64095,
+      "max_count": 1,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "18815",
+    "zone": "Molten Core",
+    "boss": "Ragnaros",
+    "date": "1570761251",
+    "cost": "102.795"
+  },
+  {
+    "recipient": "Prox",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16838?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16838,
+      "name": "Earthfury Belt",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16838?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16838
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Mail",
+        "id": 3
+      },
+      "inventory_type": {
+        "type": "WAIST",
+        "name": "Waist"
+      },
+      "purchase_price": 128411,
+      "sell_price": 25682,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16838",
+    "zone": "Molten Core",
+    "boss": "Majordomo Executus",
+    "date": "1570757373",
+    "cost": "81.6"
+  },
+  {
+    "recipient": "Falconer",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/18646?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 18646,
+      "name": "The Eye of Divinity",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 71,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/18646?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 18646
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Miscellaneous",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "TRINKET",
+        "name": "Trinket"
+      },
+      "purchase_price": 0,
+      "sell_price": 0,
+      "max_count": 1,
+      "is_equippable": true,
+      "is_stackable": false,
+      "description": "You can see movement when you peer into the Eye."
+    },
+    "item_id": "18646",
+    "zone": "Molten Core",
+    "boss": "Majordomo Executus",
+    "date": "1570680687",
+    "cost": "152.355"
+  },
+  {
+    "recipient": "Durango",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/18806?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 18806,
+      "name": "Core Forged Greaves",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 70,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/18806?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 18806
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Plate",
+        "id": 4
+      },
+      "inventory_type": {
+        "type": "FEET",
+        "name": "Feet"
+      },
+      "purchase_price": 168806,
+      "sell_price": 33761,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "18806",
+    "zone": "Molten Core",
+    "boss": "Majordomo Executus",
+    "date": "1570680623",
+    "cost": "63.8"
+  },
+  {
+    "recipient": "Ebonwind",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/18805?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 18805,
+      "name": "Core Hound Tooth",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 70,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/18805?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 18805
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Weapon",
+        "id": 2
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/15?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Dagger",
+        "id": 15
+      },
+      "inventory_type": {
+        "type": "WEAPON",
+        "name": "One-Hand"
+      },
+      "purchase_price": 546375,
+      "sell_price": 109275,
+      "max_count": 1,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "18805",
+    "zone": "Molten Core",
+    "boss": "Majordomo Executus",
+    "date": "1570680496",
+    "cost": "89.76"
+  },
+  {
+    "recipient": "Sneaksy",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16823?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16823,
+      "name": "Nightslayer Shoulder Pads",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16823?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16823
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "SHOULDER",
+        "name": "Shoulder"
+      },
+      "purchase_price": 163597,
+      "sell_price": 32719,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16823",
+    "zone": "Molten Core",
+    "boss": "Sulfuron Harbinger",
+    "date": "1570675326",
+    "cost": "75.862"
+  },
+  {
+    "recipient": "Anarkix",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/17103?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 17103,
+      "name": "Azuresong Mageblade",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 71,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/17103?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 17103
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Weapon",
+        "id": 2
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Sword",
+        "id": 7
+      },
+      "inventory_type": {
+        "type": "WEAPONMAINHAND",
+        "name": "Main Hand"
+      },
+      "purchase_price": 559117,
+      "sell_price": 111823,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "17103",
+    "zone": "Molten Core",
+    "boss": "Golemagg the Incinerator",
+    "date": "1570674444",
+    "cost": "133.6"
+  },
+  {
+    "recipient": "Zoodler",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16865?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16865,
+      "name": "Breastplate of Might",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16865?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16865
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Plate",
+        "id": 4
+      },
+      "inventory_type": {
+        "type": "CHEST",
+        "name": "Chest"
+      },
+      "purchase_price": 180477,
+      "sell_price": 36095,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16865",
+    "zone": "Molten Core",
+    "boss": "Golemagg the Incinerator",
+    "date": "1570674361",
+    "cost": "65.2"
+  },
+  {
+    "recipient": "Pocketpriest",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16815?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16815,
+      "name": "Robes of Prophecy",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16815?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16815
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Cloth",
+        "id": 1
+      },
+      "inventory_type": {
+        "type": "ROBE",
+        "name": "Chest"
+      },
+      "purchase_price": 169278,
+      "sell_price": 33855,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16815",
+    "zone": "Molten Core",
+    "boss": "Golemagg the Incinerator",
+    "date": "1570674292",
+    "cost": "101.36"
+  },
+  {
+    "recipient": "Cryptrog",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16825?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16825,
+      "name": "Nightslayer Bracelets",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16825?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16825
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "WRIST",
+        "name": "Wrist"
+      },
+      "purchase_price": 109887,
+      "sell_price": 21977,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16825",
+    "zone": "Molten Core",
+    "boss": "Shazzrah",
+    "date": "1570673256",
+    "cost": "47.5"
+  },
+  {
+    "recipient": "Gothmog",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16803?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16803,
+      "name": "Felheart Slippers",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16803?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16803
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Cloth",
+        "id": 1
+      },
+      "inventory_type": {
+        "type": "FEET",
+        "name": "Feet"
+      },
+      "purchase_price": 130905,
+      "sell_price": 26181,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16803",
+    "zone": "Molten Core",
+    "boss": "Shazzrah",
+    "date": "1570593685",
+    "cost": "56.5"
+  },
+  {
+    "recipient": "Smurph",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16852?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16852,
+      "name": "Giantstalker's Gloves",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16852?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16852
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Mail",
+        "id": 3
+      },
+      "inventory_type": {
+        "type": "HAND",
+        "name": "Hands"
+      },
+      "purchase_price": 138810,
+      "sell_price": 27762,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16852",
+    "zone": "Molten Core",
+    "boss": "Shazzrah",
+    "date": "1570593602",
+    "cost": "45.56"
+  },
+  {
+    "recipient": "Nekrohealia",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/17110?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 17110,
+      "name": "Seal of the Archmagus",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 70,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/17110?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 17110
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Miscellaneous",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "FINGER",
+        "name": "Finger"
+      },
+      "purchase_price": 98595,
+      "sell_price": 24648,
+      "max_count": 1,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "17110",
+    "zone": "Molten Core",
+    "boss": "Baron Geddon",
+    "date": "1570592442",
+    "cost": "16.8"
+  },
+  {
+    "recipient": "Miranda",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16836?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16836,
+      "name": "Cenarion Spaulders",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16836?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16836
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "SHOULDER",
+        "name": "Shoulder"
+      },
+      "purchase_price": 159298,
+      "sell_price": 31859,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16836",
+    "zone": "Molten Core",
+    "boss": "Baron Geddon",
+    "date": "1570592362",
+    "cost": "55.598"
+  },
+  {
+    "recipient": "Lethian",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/18879?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 18879,
+      "name": "Heavy Dark Iron Ring",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/18879?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 18879
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Miscellaneous",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "FINGER",
+        "name": "Finger"
+      },
+      "purchase_price": 213456,
+      "sell_price": 53364,
+      "max_count": 1,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "18879",
+    "zone": "Molten Core",
+    "boss": "Gehennas",
+    "date": "1570591384",
+    "cost": "44.451"
+  },
+  {
+    "recipient": "Ebonwind",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16826?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16826,
+      "name": "Nightslayer Gloves",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16826?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16826
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "HAND",
+        "name": "Hands"
+      },
+      "purchase_price": 110287,
+      "sell_price": 22057,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16826",
+    "zone": "Molten Core",
+    "boss": "Gehennas",
+    "date": "1570591291",
+    "cost": "54.8"
+  },
+  {
+    "recipient": "Jôhn",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/18822?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 18822,
+      "name": "Obsidian Edged Blade",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 68,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/18822?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 18822
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Weapon",
+        "id": 2
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/8?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Sword",
+        "id": 8
+      },
+      "inventory_type": {
+        "type": "TWOHWEAPON",
+        "name": "Two-Hand"
+      },
+      "purchase_price": 628843,
+      "sell_price": 125768,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "18822",
+    "zone": "Molten Core",
+    "boss": "Magmadar",
+    "date": "1570590846",
+    "cost": "121.8"
+  },
+  {
+    "recipient": "Zoodler",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/17065?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 17065,
+      "name": "Medallion of Steadfast Might",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 68,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/17065?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 17065
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Miscellaneous",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "NECK",
+        "name": "Neck"
+      },
+      "purchase_price": 133525,
+      "sell_price": 33381,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "17065",
+    "zone": "Molten Core",
+    "boss": "Magmadar",
+    "date": "1570590733",
+    "cost": "42"
+  },
+  {
+    "recipient": "Sneaksy",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16822?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16822,
+      "name": "Nightslayer Pants",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16822?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16822
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "LEGS",
+        "name": "Legs"
+      },
+      "purchase_price": 217330,
+      "sell_price": 43466,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16822",
+    "zone": "Molten Core",
+    "boss": "Magmadar",
+    "date": "1570590641",
+    "cost": "60.75"
+  },
+  {
+    "recipient": "Nekrohealia",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/17077?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 17077,
+      "name": "Crimson Shocker",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 63,
+      "required_level": 58,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/17077?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 17077
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Weapon",
+        "id": 2
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/19?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Wand",
+        "id": 19
+      },
+      "inventory_type": {
+        "type": "RANGEDRIGHT"
+      },
+      "purchase_price": 298709,
+      "sell_price": 59741,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "17077",
+    "zone": "Molten Core",
+    "boss": "Lucifron",
+    "date": "1570590004",
+    "cost": "4"
+  },
+  {
+    "recipient": "Tedium",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16800?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16800,
+      "name": "Arcanist Boots",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16800?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16800
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Cloth",
+        "id": 1
+      },
+      "inventory_type": {
+        "type": "FEET",
+        "name": "Feet"
+      },
+      "purchase_price": 129425,
+      "sell_price": 25885,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16800",
+    "zone": "Molten Core",
+    "boss": "Lucifron",
+    "date": "1570589925",
+    "cost": "50"
+  },
+  {
+    "recipient": "Xaero",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16817?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16817,
+      "name": "Girdle of Prophecy",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16817?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16817
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Cloth",
+        "id": 1
+      },
+      "inventory_type": {
+        "type": "WAIST",
+        "name": "Waist"
+      },
+      "purchase_price": 85296,
+      "sell_price": 17059,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16817",
+    "zone": "Molten Core",
+    "boss": "Garr",
+    "date": "1570589042",
+    "cost": "32.69"
+  },
+  {
+    "recipient": "Miranda",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16834?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16834,
+      "name": "Cenarion Helm",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16834?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16834
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "HEAD",
+        "name": "Head"
+      },
+      "purchase_price": 174746,
+      "sell_price": 34949,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16834",
+    "zone": "Molten Core",
+    "boss": "Garr",
+    "date": "1570587355",
+    "cost": "63.997"
+  },
+  {
+    "recipient": "Cryptrog",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16821?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16821,
+      "name": "Nightslayer Cover",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16821?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16821
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "HEAD",
+        "name": "Head"
+      },
+      "purchase_price": 162381,
+      "sell_price": 32476,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16821",
+    "zone": "Molten Core",
+    "boss": "Garr",
+    "date": "1570587300",
+    "cost": "87.5"
+  },
+  {
+    "recipient": "Backstrokes",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/18821?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 18821,
+      "name": "Quick Strike Ring",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 67,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/18821?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 18821
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Miscellaneous",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "FINGER",
+        "name": "Finger"
+      },
+      "purchase_price": 256120,
+      "sell_price": 64030,
+      "max_count": 1,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "18821",
+    "zone": "Molten Core",
+    "boss": "Garr",
+    "date": "1570587224",
+    "cost": "60.3"
+  },
+  {
+    "recipient": "Pocketpriest",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16817?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16817,
+      "name": "Girdle of Prophecy",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16817?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16817
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Cloth",
+        "id": 1
+      },
+      "inventory_type": {
+        "type": "WAIST",
+        "name": "Waist"
+      },
+      "purchase_price": 85296,
+      "sell_price": 17059,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16817",
+    "zone": "Onyxia's Lair",
+    "boss": "Onyxia",
+    "date": "1570585220",
+    "cost": "39.6"
+  },
+  {
+    "recipient": "Untareapon",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16850?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16850,
+      "name": "Giantstalker's Bracers",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16850?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16850
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Mail",
+        "id": 3
+      },
+      "inventory_type": {
+        "type": "WRIST",
+        "name": "Wrist"
+      },
+      "purchase_price": 137824,
+      "sell_price": 27564,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16850",
+    "zone": "Onyxia's Lair",
+    "boss": "Onyxia",
+    "date": "1570584747",
+    "cost": "48"
+  },
+  {
+    "recipient": "Sneaksy",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/18422?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 18422,
+      "name": "Head of Onyxia",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 60,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/18422?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 18422
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/12?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Quest",
+        "id": 12
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Quest",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "NON_EQUIP",
+        "name": "Non-equippable"
+      },
+      "purchase_price": 0,
+      "sell_price": 0,
+      "max_count": 1,
+      "is_equippable": false,
+      "is_stackable": false,
+      "description": "The head of the Black Dragonflight's Brood Mother"
+    },
+    "item_id": "18422",
+    "zone": "Onyxia's Lair",
+    "boss": "Onyxia",
+    "date": "1570499364",
+    "cost": "30"
+  },
+  {
+    "recipient": "Smurph",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/17966?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 17966,
+      "name": "Onyxia Hide Backpack",
+      "quality": {
+        "type": "UNCOMMON",
+        "name": "Uncommon"
+      },
+      "level": 55,
+      "required_level": 0,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/17966?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 17966
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/1?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Container",
+        "id": 1
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Bag",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "BAG",
+        "name": "Bag"
+      },
+      "purchase_price": 35000,
+      "sell_price": 8750,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "17966",
+    "zone": "Onyxia's Lair",
+    "boss": "Onyxia",
+    "date": "1570499294",
+    "cost": "20"
+  },
+  {
+    "recipient": "Lethian",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16963?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16963,
+      "name": "Helm of Wrath",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 76,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16963?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16963
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Plate",
+        "id": 4
+      },
+      "inventory_type": {
+        "type": "HEAD",
+        "name": "Head"
+      },
+      "purchase_price": 224501,
+      "sell_price": 44900,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16963",
+    "zone": "Onyxia's Lair",
+    "boss": "Onyxia",
+    "date": "1570499162",
+    "cost": "45"
+  },
+  {
+    "recipient": "Yolanda",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16921?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16921,
+      "name": "Halo of Transcendence",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 76,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16921?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16921
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Cloth",
+        "id": 1
+      },
+      "inventory_type": {
+        "type": "HEAD",
+        "name": "Head"
+      },
+      "purchase_price": 217204,
+      "sell_price": 43440,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16921",
+    "zone": "Onyxia's Lair",
+    "boss": "Onyxia",
+    "date": "1570499102",
+    "cost": "45"
+  },
+  {
+    "recipient": "Pkb",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/17078?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 17078,
+      "name": "Sapphiron Drape",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 72,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/17078?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 17078
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Cloth",
+        "id": 1
+      },
+      "inventory_type": {
+        "type": "CLOAK",
+        "name": "Back"
+      },
+      "purchase_price": 186019,
+      "sell_price": 37203,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "17078",
+    "zone": "Onyxia's Lair",
+    "boss": "Onyxia",
+    "date": "1570499018",
+    "cost": "35"
+  },
+  {
+    "recipient": "Xaero",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/17064?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 17064,
+      "name": "Shard of the Scale",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 71,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/17064?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 17064
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Miscellaneous",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "TRINKET",
+        "name": "Trinket"
+      },
+      "purchase_price": 183658,
+      "sell_price": 45914,
+      "max_count": 1,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "17064",
+    "zone": "Onyxia's Lair",
+    "boss": "Onyxia",
+    "date": "1570498915",
+    "cost": "35"
+  },
+  {
+    "recipient": "Teks",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16929?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16929,
+      "name": "Nemesis Skullcap",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 76,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16929?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16929
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Cloth",
+        "id": 1
+      },
+      "inventory_type": {
+        "type": "HEAD",
+        "name": "Head"
+      },
+      "purchase_price": 207606,
+      "sell_price": 41521,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16929",
+    "zone": "Onyxia's Lair",
+    "boss": "Onyxia",
+    "date": "1570157171",
+    "cost": "45"
+  },
+  {
+    "recipient": "Wes",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/18422?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 18422,
+      "name": "Head of Onyxia",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 60,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/18422?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 18422
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/12?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Quest",
+        "id": 12
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Quest",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "NON_EQUIP",
+        "name": "Non-equippable"
+      },
+      "purchase_price": 0,
+      "sell_price": 0,
+      "max_count": 1,
+      "is_equippable": false,
+      "is_stackable": false,
+      "description": "The head of the Black Dragonflight's Brood Mother"
+    },
+    "item_id": "18422",
+    "zone": "Onyxia's Lair",
+    "boss": "Onyxia",
+    "date": "1570157121",
+    "cost": "30"
+  },
+  {
+    "recipient": "Howie",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/18705?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 18705,
+      "name": "Mature Black Dragon Sinew",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 71,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/18705?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 18705
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/12?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Quest",
+        "id": 12
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Quest",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "NON_EQUIP",
+        "name": "Non-equippable"
+      },
+      "purchase_price": 0,
+      "sell_price": 0,
+      "max_count": 1,
+      "is_equippable": false,
+      "is_stackable": false
+    },
+    "item_id": "18705",
+    "zone": "Onyxia's Lair",
+    "boss": "Onyxia",
+    "date": "1570157024",
+    "cost": "60"
+  },
+  {
+    "recipient": "Falconer",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16921?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16921,
+      "name": "Halo of Transcendence",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 76,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16921?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16921
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Cloth",
+        "id": 1
+      },
+      "inventory_type": {
+        "type": "HEAD",
+        "name": "Head"
+      },
+      "purchase_price": 217204,
+      "sell_price": 43440,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16921",
+    "zone": "Onyxia's Lair",
+    "boss": "Onyxia",
+    "date": "1570156900",
+    "cost": "45"
+  },
+  {
+    "recipient": "Snarfdunkle",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/17966?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 17966,
+      "name": "Onyxia Hide Backpack",
+      "quality": {
+        "type": "UNCOMMON",
+        "name": "Uncommon"
+      },
+      "level": 55,
+      "required_level": 0,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/17966?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 17966
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/1?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Container",
+        "id": 1
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Bag",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "BAG",
+        "name": "Bag"
+      },
+      "purchase_price": 35000,
+      "sell_price": 8750,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "17966",
+    "zone": "Onyxia's Lair",
+    "boss": "Onyxia",
+    "date": "1570156832",
+    "cost": "20"
+  },
+  {
+    "recipient": "Minifauna",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/17966?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 17966,
+      "name": "Onyxia Hide Backpack",
+      "quality": {
+        "type": "UNCOMMON",
+        "name": "Uncommon"
+      },
+      "level": 55,
+      "required_level": 0,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/17966?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 17966
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/1?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Container",
+        "id": 1
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Bag",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "BAG",
+        "name": "Bag"
+      },
+      "purchase_price": 35000,
+      "sell_price": 8750,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "17966",
+    "zone": "Onyxia's Lair",
+    "boss": "Onyxia",
+    "date": "1570156728",
+    "cost": "20"
+  },
+  {
+    "recipient": "Zoodler",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/18813?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 18813,
+      "name": "Ring of Binding",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 73,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/18813?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 18813
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Miscellaneous",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "FINGER",
+        "name": "Finger"
+      },
+      "purchase_price": 356412,
+      "sell_price": 89103,
+      "max_count": 1,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "18813",
+    "zone": "Onyxia's Lair",
+    "boss": "Onyxia",
+    "date": "1570156605",
+    "cost": "35"
+  },
+  {
+    "recipient": "Falconer",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16816?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16816,
+      "name": "Mantle of Prophecy",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16816?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16816
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Cloth",
+        "id": 1
+      },
+      "inventory_type": {
+        "type": "SHOULDER",
+        "name": "Shoulder"
+      },
+      "purchase_price": 127452,
+      "sell_price": 25490,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16816",
+    "zone": "Molten Core",
+    "boss": "Sulfuron Harbinger",
+    "date": "1570075879",
+    "cost": "30"
+  },
+  {
+    "recipient": "Wes",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16823?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16823,
+      "name": "Nightslayer Shoulder Pads",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16823?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16823
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "SHOULDER",
+        "name": "Shoulder"
+      },
+      "purchase_price": 163597,
+      "sell_price": 32719,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16823",
+    "zone": "Molten Core",
+    "boss": "Sulfuron Harbinger",
+    "date": "1570075821",
+    "cost": "30"
+  },
+  {
+    "recipient": "Backstrokes",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16820?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16820,
+      "name": "Nightslayer Chestpiece",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16820?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16820
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "CHEST",
+        "name": "Chest"
+      },
+      "purchase_price": 215686,
+      "sell_price": 43137,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16820",
+    "zone": "Molten Core",
+    "boss": "Golemagg the Incinerator",
+    "date": "1570073253",
+    "cost": "35"
+  },
+  {
+    "recipient": "Jôhn",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/18821?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 18821,
+      "name": "Quick Strike Ring",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 67,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/18821?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 18821
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Miscellaneous",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "FINGER",
+        "name": "Finger"
+      },
+      "purchase_price": 256120,
+      "sell_price": 64030,
+      "max_count": 1,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "18821",
+    "zone": "Molten Core",
+    "boss": "Golemagg the Incinerator",
+    "date": "1570073171",
+    "cost": "30"
+  },
+  {
+    "recipient": "Lethian",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16865?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16865,
+      "name": "Breastplate of Might",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16865?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16865
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Plate",
+        "id": 4
+      },
+      "inventory_type": {
+        "type": "CHEST",
+        "name": "Chest"
+      },
+      "purchase_price": 180477,
+      "sell_price": 36095,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16865",
+    "zone": "Molten Core",
+    "boss": "Golemagg the Incinerator",
+    "date": "1570073091",
+    "cost": "35"
+  },
+  {
+    "recipient": "Miranda",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16831?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16831,
+      "name": "Cenarion Gloves",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16831?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16831
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "HAND",
+        "name": "Hands"
+      },
+      "purchase_price": 115275,
+      "sell_price": 23055,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16831",
+    "zone": "Molten Core",
+    "boss": "Shazzrah",
+    "date": "1570070417",
+    "cost": "20"
+  },
+  {
+    "recipient": "Shurq",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16803?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16803,
+      "name": "Felheart Slippers",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16803?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16803
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Cloth",
+        "id": 1
+      },
+      "inventory_type": {
+        "type": "FEET",
+        "name": "Feet"
+      },
+      "purchase_price": 130905,
+      "sell_price": 26181,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16803",
+    "zone": "Molten Core",
+    "boss": "Shazzrah",
+    "date": "1570070378",
+    "cost": "20"
+  },
+  {
+    "recipient": "Durango",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16861?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16861,
+      "name": "Bracers of Might",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16861?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16861
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Plate",
+        "id": 4
+      },
+      "inventory_type": {
+        "type": "WRIST",
+        "name": "Wrist"
+      },
+      "purchase_price": 88932,
+      "sell_price": 17786,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16861",
+    "zone": "Molten Core",
+    "boss": "Shazzrah",
+    "date": "1570069830",
+    "cost": "20"
+  },
+  {
+    "recipient": "Miranda",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16830?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16830,
+      "name": "Cenarion Bracers",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16830?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16830
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "WRIST",
+        "name": "Wrist"
+      },
+      "purchase_price": 114864,
+      "sell_price": 22972,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16830",
+    "zone": "Naxxramas",
+    "boss": "Gluth",
+    "date": "1570067422",
+    "cost": "20"
+  },
+  {
+    "recipient": "Grayxbull",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/17110?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 17110,
+      "name": "Seal of the Archmagus",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 70,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/17110?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 17110
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Miscellaneous",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "FINGER",
+        "name": "Finger"
+      },
+      "purchase_price": 98595,
+      "sell_price": 24648,
+      "max_count": 1,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "17110",
+    "zone": "Molten Core",
+    "boss": "Baron Geddon",
+    "date": "1569989221",
+    "cost": "30"
+  },
+  {
+    "recipient": "Gothmog",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16808?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16808,
+      "name": "Felheart Horns",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16808?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16808
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Cloth",
+        "id": 1
+      },
+      "inventory_type": {
+        "type": "HEAD",
+        "name": "Head"
+      },
+      "purchase_price": 133344,
+      "sell_price": 26668,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16808",
+    "zone": "Molten Core",
+    "boss": "Garr",
+    "date": "1569986251",
+    "cost": "35"
+  },
+  {
+    "recipient": "Durango",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/17066?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 17066,
+      "name": "Drillborer Disk",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 67,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/17066?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 17066
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Shield",
+        "id": 6
+      },
+      "inventory_type": {
+        "type": "SHIELD",
+        "name": "Off Hand"
+      },
+      "purchase_price": 289852,
+      "sell_price": 57970,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "17066",
+    "zone": "Molten Core",
+    "boss": "Garr",
+    "date": "1569986189",
+    "cost": "40"
+  },
+  {
+    "recipient": "Hoban",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/18879?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 18879,
+      "name": "Heavy Dark Iron Ring",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/18879?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 18879
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Miscellaneous",
+        "id": 0
+      },
+      "inventory_type": {
+        "type": "FINGER",
+        "name": "Finger"
+      },
+      "purchase_price": 213456,
+      "sell_price": 53364,
+      "max_count": 1,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "18879",
+    "zone": "Molten Core",
+    "boss": "Gehennas",
+    "date": "1569983778",
+    "cost": "30"
+  },
+  {
+    "recipient": "Pocketpriest",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16812?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16812,
+      "name": "Gloves of Prophecy",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16812?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16812
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Cloth",
+        "id": 1
+      },
+      "inventory_type": {
+        "type": "HAND",
+        "name": "Hands"
+      },
+      "purchase_price": 90203,
+      "sell_price": 18040,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16812",
+    "zone": "Molten Core",
+    "boss": "Gehennas",
+    "date": "1569983713",
+    "cost": "20"
+  },
+  {
+    "recipient": "Minifauna",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16796?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16796,
+      "name": "Arcanist Leggings",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16796?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16796
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Cloth",
+        "id": 1
+      },
+      "inventory_type": {
+        "type": "LEGS",
+        "name": "Legs"
+      },
+      "purchase_price": 169953,
+      "sell_price": 33990,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16796",
+    "zone": "Molten Core",
+    "boss": "Magmadar",
+    "date": "1569982988",
+    "cost": "30"
+  },
+  {
+    "recipient": "Miranda",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16835?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16835,
+      "name": "Cenarion Leggings",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16835?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16835
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "LEGS",
+        "name": "Legs"
+      },
+      "purchase_price": 211575,
+      "sell_price": 42315,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16835",
+    "zone": "Molten Core",
+    "boss": "Magmadar",
+    "date": "1569982925",
+    "cost": "30"
+  },
+  {
+    "recipient": "Durango",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/18203?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 18203,
+      "name": "Eskhandar's Right Claw",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/18203?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 18203
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/2?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Weapon",
+        "id": 2
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/2/item-subclass/13?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Fist Weapon",
+        "id": 13
+      },
+      "inventory_type": {
+        "type": "WEAPONMAINHAND",
+        "name": "Main Hand"
+      },
+      "purchase_price": 454525,
+      "sell_price": 90905,
+      "max_count": 1,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "18203",
+    "zone": "Molten Core",
+    "boss": "Magmadar",
+    "date": "1569982853",
+    "cost": "40"
+  },
+  {
+    "recipient": "Miranda",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16829?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16829,
+      "name": "Cenarion Boots",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16829?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16829
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Leather",
+        "id": 2
+      },
+      "inventory_type": {
+        "type": "FEET",
+        "name": "Feet"
+      },
+      "purchase_price": 171697,
+      "sell_price": 34339,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16829",
+    "zone": "Molten Core",
+    "boss": "Lucifron",
+    "date": "1569982148",
+    "cost": "20"
+  },
+  {
+    "recipient": "Lethian",
+    "item": {
+      "_links": {
+        "self": {
+          "href": "https://us.api.blizzard.com/data/wow/item/16863?namespace=static-1.13.2_31446-classic-us"
+        }
+      },
+      "id": 16863,
+      "name": "Gauntlets of Might",
+      "quality": {
+        "type": "EPIC",
+        "name": "Epic"
+      },
+      "level": 66,
+      "required_level": 60,
+      "media": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/media/item/16863?namespace=static-1.13.2_31446-classic-us"
+        },
+        "id": 16863
+      },
+      "item_class": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Armor",
+        "id": 4
+      },
+      "item_subclass": {
+        "key": {
+          "href": "https://us.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-1.13.2_31446-classic-us"
+        },
+        "name": "Plate",
+        "id": 4
+      },
+      "inventory_type": {
+        "type": "HAND",
+        "name": "Hands"
+      },
+      "purchase_price": 89589,
+      "sell_price": 17917,
+      "max_count": 0,
+      "is_equippable": true,
+      "is_stackable": false
+    },
+    "item_id": "16863",
+    "zone": "Molten Core",
+    "boss": "Lucifron",
+    "date": "1569982090",
+    "cost": "20"
+  }
+]
