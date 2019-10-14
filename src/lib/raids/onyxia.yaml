@@ -1,0 +1,48 @@
+name: Onyxia
+map_id: 2159
+raid_size: 40
+bosses:
+  - name: Onyxia
+    loot_table:
+      - name: Halo of Transcendence
+        item_id: 16921
+      - name: Netherwind Crown
+        item_id: 16914
+      - name: Nemesis Skullcap
+        item_id: 16929
+      - name: Bloodfang Hood
+        item_id: 16908
+      - name: Stormrage Cover
+        item_id: 16900
+      - name: Dragonstalker's Helm
+        item_id: 16939
+      - name: Helmet of Ten Storms
+        item_id: 16947
+      - name: Judgement Crown
+        item_id: 16955
+      - name: Helm of Wrath
+        item_id: 16963
+      - name: Head of Onyxia
+        item_id: 18423
+      - name: Scale of Onyxia
+        item_id: 15410
+      - name: Mature Black Dragon Sinew
+        item_id: 18705
+      - name: Eskhandar's Collar
+        item_id: 18205
+      - name: Sapphiron Drape
+        item_id: 17078
+      - name: Ring of Binding
+        item_id: 18813
+      - name: Shard of the Scale
+        item_id: 17064
+      - name: Ancient Cornerstone Grimoire
+        item_id: 17067
+      - name: Deathbringer
+        item_id: 17068
+      - name: Vis'kag the Bloodletter
+        item_id: 17075
+      - name: Onyxia Hide Backpack
+        item_id: 17966
+      - name: Blue Sack of Gems
+        item_id: 17962

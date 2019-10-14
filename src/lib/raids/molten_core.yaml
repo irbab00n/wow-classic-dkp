@@ -2,61 +2,493 @@ name: Molten Core
 map_id: 2717
 raid_size: 40
 bosses:
-  - 0:
-    name: Lucifron
-    npc_id: 12118
+  - name: Lucifron
     loot_table:
-      - 0:
-        name: Arcanist Boots
+      - name: Arcanist Boots
         item_id: 16800
-      - 1:
-        name: Felheart Gloves
+      - name: Felheart Gloves
         item_id: 16805
-      - 2:
-        name: Cenarion Boots
+      - name: Cenarion Boots
         item_id: 16829
-      - 3:
-        name: Earthfury Boots
+      - name: Earthfury Boots
         item_id: 16837
-      - 4:
-        name: Lawbringer Boots
+      - name: Lawbringer Boots
         item_id: 16859
-      - 5:
-        name: Gauntlets of Might
+      - name: Gauntlets of Might
         item_id: 16863
-      - 6:
-        name: Helm of the Lifegiver
+      - name: Helm of the Lifegiver
         item_id: 18870
-      - 7:
-        name: Choker of Enlightenment
+      - name: Choker of Enlightenment
         item_id: 17109
-      - 8:
-        name: Robe of Volatile Power
+      - name: Robe of Volatile Power
         item_id: 19145
-      - 9:
-        name: Wristguards of Stability
+      - name: Wristguards of Stability
         item_id: 19146
-      - 10:
-        name: Manastorm Leggings
+      - name: Manastorm Leggings
         item_id: 18872
-      - 11:
-        name: Salamander Scale Pants
+      - name: Salamander Scale Pants
         item_id: 18875
-      - 12:
-        name: Flamewaker Legplates
+      - name: Flamewaker Legplates
         item_id: 18861
-      - 13:
-        name: Heavy Dark Iron Ring
+      - name: Heavy Dark Iron Ring
         item_id: 18879
-      - 14:
-        name: Ring of Spell Power
+      - name: Ring of Spell Power
         item_id: 19147
-      - 15:
-        name: Crimson Shocker
+      - name: Crimson Shocker
         item_id: 17077
-      - 16:
-        name: Sorcerous Dagger
+      - name: Sorcerous Dagger
         item_id: 18878
-      - 17:
-        name: Tome of Tranquilizing Shot
+      - name: Tome of Tranquilizing Shot
         item_id: 16665
+  - name: Magmadar
+    loot_table:
+      - name: Pants of Prophecy
+        item_id: 16814
+      - name: Arcanist Leggings
+        item_id: 16796
+      - name: Felheart Pants
+        item_id: 16810
+      - name: Nightslayer Pants
+        item_id: 16822
+      - name: Cenarion Leggings
+        item_id: 16835
+      - name: Giantstalker's Leggings
+        item_id: 16847
+      - name: Earthfury Legguards
+        item_id: 16843
+      - name: Lawbringer Legplates
+        item_id: 16855
+      - name: Legplates of Might
+        item_id: 16867
+      - name: Eskhandar's Right Claw
+        item_id: 18203
+      - name: Medallion of Steadfast Might
+        item_id: 17065
+      - name: Deep Earth Spaulders
+        item_id: 18829
+      - name: Aged Core Leather Gloves
+        item_id: 18823
+      - name: Flameguard Gauntlets
+        item_id: 19143
+      - name: Mana Igniting Cord
+        item_id: 19136
+      - name: Flamewaker Legplates
+        item_id: 18861
+      - name: Sabatons of the Flamewalker
+        item_id: 19144
+      - name: Magma Tempered Boots
+        item_id: 18824
+      - name: Quick Strike Ring
+        item_id: 18821
+      - name: Talisman of Ephemeral Power
+        item_id: 18820
+      - name: Fire Runed Grimoire
+        item_id: 19142
+      - name: Striker's Mark
+        item_id: 17069
+      - name: Earthshaker
+        item_id: 17073
+      - name: Obsidian Edged Blade
+        item_id: 18822
+  - name: Gehennas
+    loot_table:
+      - name: Gloves of Prophecy
+        item_id: 16812
+      - name: Nightslayer Gloves
+        item_id: 16826
+      - name: Giantstalker's Boots
+        item_id: 16849
+      - name: Earthfury Gauntlets
+        item_id: 16839
+      - name: Lawbringer Gauntlets
+        item_id: 16860
+      - name: Sabatons of Might
+        item_id: 16862
+      - name: Helm of the Lifegiver
+        item_id: 18870
+      - name: Robe of Volatile Power
+        item_id: 19145
+      - name: Wristguards of Stability
+        item_id: 19146
+      - name: Manastorm Leggings
+        item_id: 18872
+      - name: Salamander Scale Pants
+        item_id: 18875
+      - name: Flamewaker Legplates
+        item_id: 18861
+      - name: Heavy Dark Iron Ring
+        item_id: 18879
+      - name: Ring of Spell Power
+        item_id: 19147
+      - name: Crimson Shocker
+        item_id: 17077
+      - name: Sorcerous Dagger
+        item_id: 18878
+  - name: Garr
+    loot_table:
+      - name: Bindings of the Windseeker
+        item_id: 18564
+      - name: Circlet of Prophecy
+        item_id: 16813
+      - name: Arcanist Crown
+        item_id: 16795
+      - name: Felheart Horns
+        item_id: 16808
+      - name: Nightslayer Cover
+        item_id: 16821
+      - name: Cenarion Helm
+        item_id: 16834
+      - name: Giantstalker's Helmet
+        item_id: 16846
+      - name: Earthfury Helmet
+        item_id: 16842
+      - name: Lawbringer Helm
+        item_id: 16854
+      - name: Helm of Might
+        item_id: 16866
+      - name: Deep Earth Spaulders
+        item_id: 18829
+      - name: Aged Core Leather Gloves
+        item_id: 18823
+      - name: Flameguard Gauntlets
+        item_id: 19143
+      - name: Mana Igniting Cord
+        item_id: 19136
+      - name: Flamewaker Legplates
+        item_id: 18861
+      - name: Sabatons of the Flamewalker
+        item_id: 19144
+      - name: Magma Tempered Boots
+        item_id: 18824
+      - name: Quick Strike Ring
+        item_id: 18821
+      - name: Talisman of Ephemeral Power
+        item_id: 18820
+      - name: Fire Runed Grimoire
+        item_id: 19142
+      - name: Drillborer Disk
+        item_id: 17066
+      - name: Gutgore Ripper
+        item_id: 17071
+      - name: Aurastone Hammer
+        item_id: 17105
+      - name: Brutality Blade
+        item_id: 18832
+      - name: Obsidian Edged Blade
+        item_id: 18822
+  - name: Shazzrah
+    loot_table:
+      - name: Boots of Prophecy
+        item_id: 16811
+      - name: Arcanist Gloves
+        item_id: 16801
+      - name: Felheart Slippers
+        item_id: 16803
+      - name: Nightslayer Boots
+        item_id: 16824
+      - name: Cenarion Gloves
+        item_id: 16831
+      - name: Giantstalker's Gloves
+        item_id: 16852
+      - name: Helm of the Lifegiver
+        item_id: 18870
+      - name: Robe of Volatile Power
+        item_id: 19145
+      - name: Wristguards of Stability
+        item_id: 19146
+      - name: Manastorm Leggings
+        item_id: 18872
+      - name: Salamander Scale Pants
+        item_id: 18875
+      - name: Flamewaker Legplates
+        item_id: 18861
+      - name: Heavy Dark Iron Ring
+        item_id: 18879
+      - name: Ring of Spell Power
+        item_id: 19147
+      - name: Crimson Shocker
+        item_id: 17077
+      - name: Sorcerous Dagger
+        item_id: 18878
+  - name: Baron Geddon
+    loot_table:
+      - name: Bindings of the Windseeker
+        item_id: 18563
+      - name: Arcanist Mantle
+        item_id: 16797
+      - name: Felheart Shoulder Pads
+        item_id: 16807
+      - name: Cenarion Spaulders
+        item_id: 16836
+      - name: Earthfury Epaulets
+        item_id: 16844
+      - name: Lawbringer Spaulders
+        item_id: 16856
+      - name: Deep Earth Spaulders
+        item_id: 18829
+      - name: Aged Core Leather Gloves
+        item_id: 18823
+      - name: Flameguard Gauntlets
+        item_id: 19143
+      - name: Mana Igniting Cord
+        item_id: 19136
+      - name: Flamewaker Legplates
+        item_id: 18861
+      - name: Sabatons of the Flamewalker
+        item_id: 19144
+      - name: Magma Tempered Boots
+        item_id: 18824
+      - name: Quick Strike Ring
+        item_id: 18821
+      - name: Seal of the Archmagus
+        item_id: 17110
+      - name: Talisman of Ephemeral Power
+        item_id: 18820
+      - name: Fire Runed Grimoire
+        item_id: 19142
+      - name: Obsidian Edged Blade
+        item_id: 18822
+  - name: Golemagg the Incinerator
+    loot_table:
+      - name: Robes of Prophecy
+        item_id: 16815
+      - name: Arcanist Robes
+        item_id: 16798
+      - name: Felheart Robes
+        item_id: 16809
+      - name: Nightslayer Chestpiece
+        item_id: 16820
+      - name: Cenarion Vestments
+        item_id: 16833
+      - name: Giantstalker's Breastplate
+        item_id: 16845
+      - name: Earthfury Vestments
+        item_id: 16841
+      - name: Lawbringer Chestguard
+        item_id: 16853
+      - name: Breastplate of Might
+        item_id: 16865
+      - name: Sulfuron Ingot
+        item_id: 17203
+      - name: Deep Earth Spaulders
+        item_id: 18829
+      - name: Aged Core Leather Gloves
+        item_id: 18823
+      - name: Flameguard Gauntlets
+        item_id: 19143
+      - name: Mana Igniting Cord
+        item_id: 19136
+      - name: Flamewaker Legplates
+        item_id: 18861
+      - name: Sabatons of the Flamewalker
+        item_id: 19144
+      - name: Magma Tempered Boots
+        item_id: 18824
+      - name: Quick Strike Ring
+        item_id: 18821
+      - name: Talisman of Ephemeral Power
+        item_id: 18820
+      - name: Fire Runed Grimoire
+        item_id: 19142
+      - name: Blastershot Launcher
+        item_id: 17072
+      - name: Azuresong Mageblade
+        item_id: 17103
+      - name: Obsidian Edged Blade
+        item_id: 18822
+      - name: Staff of Dominance
+        item_id: 18842
+  - name: Sulfuron Harbinger
+    loot_table:
+      - name: Mantle of Prophecy
+        item_id: 16816
+      - name: Nightslayer Shoulder Pads
+        item_id: 16823
+      - name: Giantstalker's Epaulets
+        item_id: 16848
+      - name: Pauldrons of Might
+        item_id: 16868
+      - name: Helm of the Lifegiver
+        item_id: 18870
+      - name: Robe of Volatile Power
+        item_id: 19145
+      - name: Wristguards of Stability
+        item_id: 19146
+      - name: Manastorm Leggings
+        item_id: 18872
+      - name: Salamander Scale Pants
+        item_id: 18875
+      - name: Flamewaker Legplates
+        item_id: 18861
+      - name: Heavy Dark Iron Ring
+        item_id: 18879
+      - name: Ring of Spell Power
+        item_id: 19147
+      - name: Crimson Shocker
+        item_id: 17077
+      - name: Sorcerous Dagger
+        item_id: 18878
+      - name: Shadowstrike
+        item_id: 17074
+      - name: Thunderstrike
+        item_id: 17223
+  - name: Majordomo Executus
+    loot_table:
+      - name: Fireguard Shoulders
+        item_id: 19139
+      - name: Wild Growth Spaulders
+        item_id: 18810
+      - name: Fireproof Cloak
+        item_id: 18811
+      - name: Gloves of the Hypnotic Flame
+        item_id: 18808
+      - name: Sash of Whispered Secrets
+        item_id: 18809
+      - name: Wristguards of True Flight
+        item_id: 18812
+      - name: Core Forged Greaves
+        item_id: 18806
+      - name: Cauterizing Band
+        item_id: 19140
+      - name: Core Hound Tooth
+        item_id: 18805
+      - name: Finkle's Lava Dredger
+        item_id: 18803
+      - name: Ancient Petrified Leaf
+        item_id: 18703
+      - name: The Eye of Divinity
+        item_id: 18646
+  - name: Ragnaros
+    loot_table:
+      - name: Eye of Sulfuras
+        item_id: 17204
+      - name: Essence of the Firelord
+        item_id: 19017
+      - name: Leggings of Transcendence
+        item_id: 16922
+      - name: Netherwind Pants
+        item_id: 16915
+      - name: Nemesis Leggings
+        item_id: 16930
+      - name: Bloodfang Pants
+        item_id: 16909
+      - name: Stormrage Legguards
+        item_id: 16901
+      - name: Dragonstalker's Legguards
+        item_id: 16938
+      - name: Legplates of Ten Storms
+        item_id: 16946
+      - name: Judgement Legplates
+        item_id: 16954
+      - name: Legplates of Wrath
+        item_id: 16962
+      - name: Shard of the Flame
+        item_id: 17082
+      - name: Crown of Destruction
+        item_id: 18817
+      - name: Choker of the Fire Lord
+        item_id: 18814
+      - name: Cloak of the Shrouded Mists
+        item_id: 17102
+      - name: Dragon's Blood Cape
+        item_id: 17107
+      - name: Onslaught Girdle
+        item_id: 19137
+      - name: Band of Accuria
+        item_id: 17063
+      - name: Band of Sulfuras
+        item_id: 19138
+      - name: Essence of the Pure Flame
+        item_id: 18815
+      - name: Malistar's Defender
+        item_id: 17106
+      - name: Perdition's Blade
+        item_id: 18816
+      - name: Spinal Reaper
+        item_id: 17104
+      - name: Bonereaver's Edge
+        item_id: 17076
+  - name: Shared
+    loot_table:
+      - name: 'Plans: Elemental Sharpening Stone'
+        item_id: 18264
+      - name: Elemental Sharpening Stone
+        item_id: 18262
+      - name: 'Schematic: Core Marksman Rifle'
+        item_id: 18292
+      - name: Core Marksman Rifle
+        item_id: 18282
+      - name: 'Schematic: Force Reactive Disk'
+        item_id: 18291
+      - name: Force Reactive Disk
+        item_id: 18168
+      - name: 'Schematic: Biznicks 247x128 Accurascope'
+        item_id: 18290
+      - name: Biznicks 247x128 Accurascope
+        item_id: 18283
+      - name: 'Formula: Enchant Weapon - Spell Power'
+        item_id: 18259
+      - name: 'Pattern: Core Armor Kit'
+        item_id: 18252
+      - name: Core Armor Kit
+        item_id: 18251
+      - name: 'Pattern: Flarecore Wraps'
+        item_id: 18265
+      - name: Flarecore Wraps
+        item_id: 18263
+      - name: 'Pattern: Core Felcloth Bag'
+        item_id: 21371
+      - name: Core Felcloth Bag
+        item_id: 21342
+      - name: 'Recipe: Major Rejuvenation Potion'
+        item_id: 18257
+      - name: Major Rejuvenation Potion
+        item_id: 18253
+      - name: 'Formula: Enchant Weapon - Healing Power'
+        item_id: 18260
+  - name: Trash
+    loot_table:
+      - name: Girdle of Prophecy
+        item_id: 16817
+      - name: Arcanist Belt
+        item_id: 16802
+      - name: Felheart Belt
+        item_id: 16806
+      - name: Nightslayer Belt
+        item_id: 16827
+      - name: Cenarion Belt
+        item_id: 16828
+      - name: Giantstalker's Belt
+        item_id: 16851
+      - name: Earthfury Belt
+        item_id: 16838
+      - name: Lawbringer Belt
+        item_id: 16858
+      - name: Belt of Might
+        item_id: 16864
+      - name: Lava Core
+        item_id: 17011
+      - name: Fiery Core
+        item_id: 17010
+      - name: Blood of the Mountain
+        item_id: 11382
+      - name: Core Leather
+        item_id: 17012
+      - name: Vambraces of Prophecy
+        item_id: 16819
+      - name: Arcanist Bindings
+        item_id: 16799
+      - name: Felheart Bracers
+        item_id: 16804
+      - name: Nightslayer Bracelets
+        item_id: 16825
+      - name: Cenarion Bracers
+        item_id: 16830
+      - name: Giantstalker's Bracers
+        item_id: 16850
+      - name: Earthfury Bracers
+        item_id: 16840
+      - name: Lawbringer Bracers
+        item_id: 16857
+      - name: Bracers of Might
+        item_id: 16861

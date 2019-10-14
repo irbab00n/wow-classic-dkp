@@ -1,0 +1,440 @@
+name: Zul'Gurub
+map_id: 2717
+raid_size: 20
+bosses:
+  - name: High Priestess Jeklik
+    loot_table:
+      - name: Primal Hakkari Shawl
+        item_id: 19721
+      - name: Primal Hakkari Aegis
+        item_id: 19724
+      - name: Primal Hakkari Kossack
+        item_id: 19723
+      - name: Primal Hakkari Tabard
+        item_id: 19722
+      - name: Primal Hakkari Armsplint
+        item_id: 19717
+      - name: Primal Hakkari Bindings
+        item_id: 19716
+      - name: Primal Hakkari Stanchion
+        item_id: 19718
+      - name: Primal Hakkari Girdle
+        item_id: 19719
+      - name: Primal Hakkari Sash
+        item_id: 19720
+      - name: Jeklik's Crusher
+        item_id: 19918
+      - name: Jeklik's Opaline Talisman
+        item_id: 19923
+      - name: Animist's Spaulders
+        item_id: 19928
+      - name: Seafury Boots
+        item_id: 20262
+      - name: Peacekeeper Boots
+        item_id: 20265
+      - name: Primalist's Band
+        item_id: 19920
+      - name: Zulian Defender
+        item_id: 19915
+  - name: High Priest Venoxis
+    loot_table:
+      - name: Primal Hakkari Shawl
+        item_id: 19721
+      - name: Primal Hakkari Aegis
+        item_id: 19724
+      - name: Primal Hakkari Kossack
+        item_id: 19723
+      - name: Primal Hakkari Tabard
+        item_id: 19722
+      - name: Primal Hakkari Armsplint
+        item_id: 19717
+      - name: Primal Hakkari Bindings
+        item_id: 19716
+      - name: Primal Hakkari Stanchion
+        item_id: 19718
+      - name: Primal Hakkari Girdle
+        item_id: 19719
+      - name: Primal Hakkari Sash
+        item_id: 19720
+      - name: Runed Bloodstained Hauberk
+        item_id: 19904
+      - name: Fang of Venoxis
+        item_id: 19903
+      - name: Zulian Tigerhide Cloak
+        item_id: 19907
+      - name: Blooddrenched Footpads
+        item_id: 19906
+      - name: Zanzil's Band
+        item_id: 19905
+      - name: Zulian Stone Axe
+        item_id: 19900
+  - name: High Priestess Mar'li
+    loot_table:
+      - name: Primal Hakkari Shawl
+        item_id: 19721
+      - name: Primal Hakkari Aegis
+        item_id: 19724
+      - name: Primal Hakkari Kossack
+        item_id: 19723
+      - name: Primal Hakkari Tabard
+        item_id: 19722
+      - name: Primal Hakkari Armsplint
+        item_id: 19717
+      - name: Primal Hakkari Bindings
+        item_id: 19716
+      - name: Primal Hakkari Stanchion
+        item_id: 19718
+      - name: Primal Hakkari Girdle
+        item_id: 19719
+      - name: Primal Hakkari Sash
+        item_id: 19720
+      - name: Flowing Ritual Robes
+        item_id: 20032
+      - name: Mar'li's Touch
+        item_id: 19927
+      - name: Talisman of Protection
+        item_id: 19871
+      - name: Bloodstained Greaves
+        item_id: 19919
+      - name: Band of Jin
+        item_id: 19925
+      - name: Mar'li's Eye
+        item_id: 19930
+  - name: Bloodlord Mandokir
+    loot_table:
+      - name: Primal Hakkari Shawl
+        item_id: 19721
+      - name: Primal Hakkari Aegis
+        item_id: 19724
+      - name: Primal Hakkari Kossack
+        item_id: 19723
+      - name: Primal Hakkari Tabard
+        item_id: 19722
+      - name: Primal Hakkari Armsplint
+        item_id: 19717
+      - name: Primal Hakkari Bindings
+        item_id: 19716
+      - name: Primal Hakkari Stanchion
+        item_id: 19718
+      - name: Primal Hakkari Girdle
+        item_id: 19719
+      - name: Primal Hakkari Sash
+        item_id: 19720
+      - name: Primal Hakkari Idol
+        item_id: 22637
+      - name: Swift Razzashi Raptor
+        item_id: 19872
+      - name: Mandokir's Sting
+        item_id: 20038
+      - name: Bloodlord's Defender
+        item_id: 19867
+      - name: Warblade of the Hakkari
+        item_id: 19866
+      - name: Halberd of Smiting
+        item_id: 19874
+      - name: Bloodsoaked Pauldrons
+        item_id: 19878
+      - name: Hakkari Loa Cloak
+        item_id: 19870
+      - name: Blooddrenched Grips
+        item_id: 19869
+      - name: Bloodtinged Kilt
+        item_id: 19895
+      - name: Animist's Leggings
+        item_id: 19877
+      - name: Overlord's Crimson Band
+        item_id: 19873
+      - name: Primalist's Seal
+        item_id: 19863
+      - name: Zanzil's Seal
+        item_id: 19893
+  - name: Gri'lek
+    loot_table:
+      - name: Gri'lek's Grinder
+        item_id: 19961
+      - name: Gri'lek's Carver
+        item_id: 19962
+      - name: Gri'lek's Blood
+        item_id: 19939
+  - name: Hazza'rah
+    loot_table:
+      - name: Thoughtblighter
+        item_id: 19967
+      - name: Fiery Retributer
+        item_id: 19968
+      - name: Hazza'rah's Dream Thread
+        item_id: 19942
+  - name: Renataki
+    loot_table:
+      - name: Renataki's Soul Conduit
+        item_id: 19964
+      - name: Pitchfork of Madness
+        item_id: 19963
+      - name: Renataki's Tooth
+        item_id: 19940
+  - name: Wushoolay
+    loot_table:
+      - name: Hoodoo Hunting Bow
+        item_id: 19993
+      - name: Wushoolay's Poker
+        item_id: 19965
+      - name: Wushoolay's Mane
+        item_id: 19941
+  - name: Gahz'ranka
+    loot_table:
+      - name: Foror's Eyepatch
+        item_id: 19945
+      - name: Nat Pagle's Fish Terminator
+        item_id: 19944
+      - name: Nat Pagle's Broken Reel
+        item_id: 19947
+      - name: Tigule's Harpoon
+        item_id: 19946
+      - name: 'Tome of Polymorph: Turtle'
+        item_id: 22739
+  - name: High Priest Thekal
+    loot_table:
+      - name: Primal Hakkari Shawl
+        item_id: 19721
+      - name: Primal Hakkari Aegis
+        item_id: 19724
+      - name: Primal Hakkari Kossack
+        item_id: 19723
+      - name: Primal Hakkari Tabard
+        item_id: 19722
+      - name: Primal Hakkari Armsplint
+        item_id: 19717
+      - name: Primal Hakkari Bindings
+        item_id: 19716
+      - name: Primal Hakkari Stanchion
+        item_id: 19718
+      - name: Primal Hakkari Girdle
+        item_id: 19719
+      - name: Primal Hakkari Sash
+        item_id: 19720
+      - name: Swift Zulian Tiger
+        item_id: 19902
+      - name: Betrayer's Boots
+        item_id: 19897
+      - name: Thekal's Grasp
+        item_id: 19896
+      - name: Ritualistic Legguards
+        item_id: 19899
+      - name: Seafury Leggings
+        item_id: 20260
+      - name: Peacekeeper Leggings
+        item_id: 20266
+      - name: Seal of Jin
+        item_id: 19898
+      - name: Zulian Slicer
+        item_id: 19901
+  - name: High Priestess Arlokk
+    loot_table:
+      - name: Primal Hakkari Shawl
+        item_id: 19721
+      - name: Primal Hakkari Aegis
+        item_id: 19724
+      - name: Primal Hakkari Kossack
+        item_id: 19723
+      - name: Primal Hakkari Tabard
+        item_id: 19722
+      - name: Primal Hakkari Armsplint
+        item_id: 19717
+      - name: Primal Hakkari Bindings
+        item_id: 19716
+      - name: Primal Hakkari Stanchion
+        item_id: 19718
+      - name: Primal Hakkari Girdle
+        item_id: 19719
+      - name: Primal Hakkari Sash
+        item_id: 19720
+      - name: Arlokk's Grasp
+        item_id: 19910
+      - name: Will of Arlokk
+        item_id: 19909
+      - name: Bloodsoaked Greaves
+        item_id: 19913
+      - name: Overlord's Onyx Band
+        item_id: 19912
+      - name: Arlokk's Hoodoo Stick
+        item_id: 19922
+      - name: Panther Hide Sack
+        item_id: 19914
+  - name: Jin'do the Hexxer
+    loot_table:
+      - name: Primal Hakkari Shawl
+        item_id: 19721
+      - name: Primal Hakkari Aegis
+        item_id: 19724
+      - name: Primal Hakkari Kossack
+        item_id: 19723
+      - name: Primal Hakkari Tabard
+        item_id: 19722
+      - name: Primal Hakkari Armsplint
+        item_id: 19717
+      - name: Primal Hakkari Bindings
+        item_id: 19716
+      - name: Primal Hakkari Stanchion
+        item_id: 19718
+      - name: Primal Hakkari Girdle
+        item_id: 19719
+      - name: Primal Hakkari Sash
+        item_id: 19720
+      - name: Primal Hakkari Idol
+        item_id: 22637
+      - name: Jin'do's Evil Eye
+        item_id: 19885
+      - name: Jin'do's Bag of Whammies
+        item_id: 19891
+      - name: Jin'do's Hexxer
+        item_id: 19890
+      - name: Jin'do's Judgement
+        item_id: 19884
+      - name: The Hexxer's Cover
+        item_id: 19886
+      - name: Bloodstained Coif
+        item_id: 19875
+      - name: Overlord's Embrace
+        item_id: 19888
+      - name: Bloodtinged Gloves
+        item_id: 19929
+      - name: Bloodsoaked Gauntlets
+        item_id: 19894
+      - name: Blooddrenched Leggings
+        item_id: 19889
+      - name: Bloodstained Legplates
+        item_id: 19887
+      - name: Animist's Boots
+        item_id: 19892
+  - name: Hakkar
+    loot_table:
+      - name: Cloak of Consumption
+        item_id: 19857
+      - name: Seafury Gauntlets
+        item_id: 20257
+      - name: Peacekeeper Gauntlets
+        item_id: 20264
+      - name: Bloodsoaked Legplates
+        item_id: 19855
+      - name: Soul Corrupter's Necklace
+        item_id: 19876
+      - name: The Eye of Hakkar
+        item_id: 19856
+      - name: Touch of Chaos
+        item_id: 19861
+      - name: Gurubashi Dwarf Destroyer
+        item_id: 19853
+      - name: Aegis of the Blood God
+        item_id: 19862
+      - name: Bloodcaller
+        item_id: 19864
+      - name: Warblade of the Hakkari
+        item_id: 19865
+      - name: Ancient Hakkari Manslayer
+        item_id: 19852
+      - name: Fang of the Faceless
+        item_id: 19859
+      - name: Zin'rokh, Destroyer of Worlds
+        item_id: 19854
+      - name: Heart of Hakkar
+        item_id: 19802
+  - name: Shared
+    loot_table:
+      - name: Band of Servitude
+        item_id: 22721
+      - name: Seal of the Gurubashi Berserker
+        item_id: 22722
+      - name: Zulian Headdress
+        item_id: 22720
+      - name: Blooddrenched Mask
+        item_id: 22718
+      - name: Cloak of the Hakkari Worshipers
+        item_id: 22711
+      - name: Might of the Tribe
+        item_id: 22712
+      - name: Gloves of the Tormented
+        item_id: 22715
+      - name: Sacrificial Gauntlets
+        item_id: 22714
+      - name: Belt of Untapped Power
+        item_id: 22716
+      - name: Zulian Scepter of Rites
+        item_id: 22713
+  - name: Trash
+    loot_table:
+      - name: Gurubashi Helm
+        item_id: 20263
+      - name: Shadow Panther Hide Gloves
+        item_id: 20259
+      - name: Shadow Panther Hide Belt
+        item_id: 20261
+      - name: Zulian Hacker
+        item_id: 19921
+      - name: Sceptre of Smiting
+        item_id: 19908
+      - name: Zulian Ceremonial Staff
+        item_id: 20258
+      - name: Blood Scythe
+        item_id: 19727
+      - name: Bloodvine
+        item_id: 19726
+      - name: Souldarite
+        item_id: 19774
+      - name: Primal Bat Leather
+        item_id: 19767
+      - name: Primal Tiger Leather
+        item_id: 19768
+      - name: Punctured Voodoo Doll
+        item_id: 19820
+      - name: Punctured Voodoo Doll
+        item_id: 19818
+      - name: Punctured Voodoo Doll
+        item_id: 19819
+      - name: Punctured Voodoo Doll
+        item_id: 19814
+      - name: Punctured Voodoo Doll
+        item_id: 19821
+      - name: Punctured Voodoo Doll
+        item_id: 19816
+      - name: Punctured Voodoo Doll
+        item_id: 19817
+      - name: Punctured Voodoo Doll
+        item_id: 19815
+      - name: Punctured Voodoo Doll
+        item_id: 19813
+      - name: Bloodscalp Coin
+        item_id: 19706
+      - name: Gurubashi Coin
+        item_id: 19701
+      - name: Hakkari Coin
+        item_id: 19700
+      - name: Razzashi Coin
+        item_id: 19699
+      - name: Sandfury Coin
+        item_id: 19704
+      - name: Skullsplitter Coin
+        item_id: 19705
+      - name: Vilebranch Coin
+        item_id: 19702
+      - name: Witherbark Coin
+        item_id: 19703
+      - name: Zulian Coin
+        item_id: 19698
+      - name: Blue Hakkari Bijou
+        item_id: 19708
+      - name: Bronze Hakkari Bijou
+        item_id: 19713
+      - name: Gold Hakkari Bijou
+        item_id: 19715
+      - name: Green Hakkari Bijou
+        item_id: 19711
+      - name: Orange Hakkari Bijou
+        item_id: 19710
+      - name: Purple Hakkari Bijou
+        item_id: 19712
+      - name: Red Hakkari Bijou
+        item_id: 19707
+      - name: Silver Hakkari Bijou
+        item_id: 19714
+      - name: Yellow Hakkari Bijou
+        item_id: 19709

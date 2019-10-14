@@ -1,0 +1,293 @@
+name: AQ 20
+long_name: The Ruins of Ahn'Qiraj
+map_id: 3429
+raid_size: 20
+bosses:
+  - name: Kurinnaxx
+    loot_table:
+      - name: Vestments of the Shifting Sands
+        item_id: 21499
+      - name: Qiraji Sacrificial Dagger
+        item_id: 21498
+      - name: Sand Reaver Wristguards
+        item_id: 21502
+      - name: Toughened Silithid Hide Gloves
+        item_id: 21501
+      - name: Belt of the Inquisition
+        item_id: 21500
+      - name: Belt of the Sand Reaver
+        item_id: 21503
+      - name: Qiraji Martial Drape
+        item_id: 20885
+      - name: Qiraji Regal Drape
+        item_id: 20889
+      - name: Qiraji Ceremonial Ring
+        item_id: 20888
+      - name: Qiraji Magisterial Ring
+        item_id: 20884
+  - name: General Rajaxx
+    loot_table:
+      - name: Boots of the Vanguard
+        item_id: 21493
+      - name: Manslayer of the Qiraji
+        item_id: 21492
+      - name: Bracers of Qiraji Command
+        item_id: 21496
+      - name: Southwind's Grasp
+        item_id: 21494
+      - name: Legplates of the Qiraji Command
+        item_id: 21495
+      - name: Boots of the Qiraji General
+        item_id: 21497
+      - name: Qiraji Martial Drape
+        item_id: 20885
+      - name: Qiraji Regal Drape
+        item_id: 20889
+      - name: Qiraji Ceremonial Ring
+        item_id: 20888
+      - name: Qiraji Magisterial Ring
+        item_id: 20884
+  - name: Moam
+    loot_table:
+      - name: Dustwind Turban
+        item_id: 21472
+      - name: Thick Silithid Chestguard
+        item_id: 21467
+      - name: Gauntlets of the Immovable
+        item_id: 21479
+      - name: Talon of Furious Concentration
+        item_id: 21471
+      - name: Southwind Helm
+        item_id: 21455
+      - name: Mantle of Maz'Nadir
+        item_id: 21468
+      - name: Chitinous Shoulderguards
+        item_id: 21474
+      - name: Cloak of the Savior
+        item_id: 21470
+      - name: Gauntlets of Southwind
+        item_id: 21469
+      - name: Obsidian Scaled Leggings
+        item_id: 21476
+      - name: Legplates of the Destroyer
+        item_id: 21475
+      - name: Ring of Fury
+        item_id: 21477
+      - name: Eye of Moam
+        item_id: 21473
+      - name: Qiraji Ornate Hilt
+        item_id: 20890
+      - name: Qiraji Spiked Hilt
+        item_id: 20886
+      - name: Qiraji Ceremonial Ring
+        item_id: 20888
+      - name: Qiraji Magisterial Ring
+        item_id: 20884
+      - name: 'Plans: Black Grasp of the Destroyer'
+        item_id: 22220
+  - name: Buru the Gorger
+    loot_table:
+      - name: Slimy Scaled Gauntlets
+        item_id: 21487
+      - name: Gloves of the Swarm
+        item_id: 21486
+      - name: Buru's Skull Fragment
+        item_id: 21485
+      - name: Scaled Bracers of the Gorger
+        item_id: 21491
+      - name: Quicksand Waders
+        item_id: 21489
+      - name: Slime Kickers
+        item_id: 21490
+      - name: Fetish of Chitinous Spikes
+        item_id: 21488
+      - name: Qiraji Ornate Hilt
+        item_id: 20890
+      - name: Qiraji Spiked Hilt
+        item_id: 20886
+      - name: Qiraji Martial Drape
+        item_id: 20885
+      - name: Qiraji Regal Drape
+        item_id: 20889
+      - name: Qiraji Ceremonial Ring
+        item_id: 20888
+      - name: Qiraji Magisterial Ring
+        item_id: 20884
+  - name: Ayamiss the Hunter
+    loot_table:
+      - name: Gauntlets of the Immovable
+        item_id: 21479
+      - name: Bow of Taut Sinew
+        item_id: 21478
+      - name: Stinger of Ayamiss
+        item_id: 21466
+      - name: Helm of Regrowth
+        item_id: 21484
+      - name: Scaled Silithid Gauntlets
+        item_id: 21480
+      - name: Boots of the Fiery Sands
+        item_id: 21482
+      - name: Boots of the Desert Protector
+        item_id: 21481
+      - name: Ring of the Desert Winds
+        item_id: 21483
+      - name: Qiraji Ornate Hilt
+        item_id: 20890
+      - name: Qiraji Spiked Hilt
+        item_id: 20886
+      - name: Qiraji Martial Drape
+        item_id: 20885
+      - name: Qiraji Regal Drape
+        item_id: 20889
+      - name: Qiraji Ceremonial Ring
+        item_id: 20888
+      - name: Qiraji Magisterial Ring
+        item_id: 20884
+  - name: Ossirian the Unscarred
+    loot_table:
+      - name: Helm of Domination
+        item_id: 21460
+      - name: Runic Stone Shoulders
+        item_id: 21454
+      - name: Mantle of the Horusath
+        item_id: 21453
+      - name: Sandstorm Cloak
+        item_id: 21456
+      - name: Shackles of the Unscarred
+        item_id: 21464
+      - name: Bracers of Brutality
+        item_id: 21457
+      - name: Gloves of Dark Wisdom
+        item_id: 21462
+      - name: Gauntlets of New Life
+        item_id: 21458
+      - name: Ossirian's Binding
+        item_id: 21463
+      - name: Leggings of the Black Blizzard
+        item_id: 21461
+      - name: Crossbow of Imminent Doom
+        item_id: 21459
+      - name: Sand Polished Hammer
+        item_id: 21715
+      - name: Staff of the Ruins
+        item_id: 21452
+      - name: Qiraji Ornate Hilt
+        item_id: 20890
+      - name: Qiraji Spiked Hilt
+        item_id: 20886
+      - name: Qiraji Ceremonial Ring
+        item_id: 20888
+      - name: Qiraji Magisterial Ring
+        item_id: 20884
+      - name: Head of Ossirian the Unscarred
+        item_id: 21220
+  - name: Trash
+    loot_table:
+      - name: Coif of Elemental Fury
+        item_id: 21804
+      - name: Helm of the Holy Avenger
+        item_id: 21803
+      - name: Polished Obsidian Pauldrons
+        item_id: 21805
+      - name: Alabaster Idol
+        item_id: 20873
+      - name: Amber Idol
+        item_id: 20869
+      - name: Azure Idol
+        item_id: 20866
+      - name: Jasper Idol
+        item_id: 20870
+      - name: Lambent Idol
+        item_id: 20868
+      - name: Obsidian Idol
+        item_id: 20871
+      - name: Onyx Idol
+        item_id: 20867
+      - name: Vermillion Idol
+        item_id: 20872
+      - name: Scarab Coffer Key
+        item_id: 21761
+      - name: Scarab Bag
+        item_id: 21156
+      - name: Antenna of Invigoration
+        item_id: 21801
+      - name: Silithid Husked Launcher
+        item_id: 21800
+      - name: The Lost Kris of Zedd
+        item_id: 21802
+      - name: Bone Scarab
+        item_id: 20864
+      - name: Bronze Scarab
+        item_id: 20861
+      - name: Clay Scarab
+        item_id: 20863
+      - name: Crystal Scarab
+        item_id: 20862
+      - name: Gold Scarab
+        item_id: 20859
+      - name: Ivory Scarab
+        item_id: 20865
+      - name: Silver Scarab
+        item_id: 20860
+      - name: Stone Scarab
+        item_id: 20858
+      - name: Large Obsidian Shard
+        item_id: 22203
+      - name: Small Obsidian Shard
+        item_id: 22202
+  - name: Class books
+    loot_table:
+      - name: Codex of Greater Heal V
+        item_id: 21284
+      - name: Codex of Prayer of Healing V
+        item_id: 21287
+      - name: Codex of Renew X
+        item_id: 21285
+      - name: Tome of Fireball XII
+        item_id: 21279
+      - name: Tome of Frostbolt XI
+        item_id: 21214
+      - name: Tome of Arcane Missiles VIII
+        item_id: 21280
+      - name: Grimoire of Shadow Bolt X
+        item_id: 21281
+      - name: Grimoire of Corruption VII
+        item_id: 21283
+      - name: Grimoire of Immolate VIII
+        item_id: 21282
+      - name: Handbook of Backstab IX
+        item_id: 21300
+      - name: Handbook of Feint V
+        item_id: 21303
+      - name: Handbook of Deadly Poison V
+        item_id: 21302
+      - name: Book of Healing Touch XI
+        item_id: 21294
+      - name: Book of Rejuvenation XI
+        item_id: 21296
+      - name: Book of Starfire VII
+        item_id: 21295
+      - name: 'Guide: Serpent Sting IX'
+        item_id: 21306
+      - name: 'Guide: Multi-Shot V'
+        item_id: 21304
+      - name: 'Guide: Aspect of the Hawk VII'
+        item_id: 21307
+      - name: Tablet of Healing Wave X
+        item_id: 21291
+      - name: Tablet of Strength of Earth Totem V
+        item_id: 21292
+      - name: Tablet of Grace of Air Totem III
+        item_id: 21293
+      - name: 'Libram: Blessing of Wisdom VI'
+        item_id: 21288
+      - name: 'Libram: Blessing of Might VII'
+        item_id: 21289
+      - name: 'Libram: Holy Light IX'
+        item_id: 21290
+      - name: Manual of Battle Shout VII
+        item_id: 21298
+      - name: Manual of Revenge VI
+        item_id: 21299
+      - name: Manual of Heroic Strike IX
+        item_id: 21297

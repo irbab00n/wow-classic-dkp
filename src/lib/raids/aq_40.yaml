@@ -1,0 +1,361 @@
+name: AQ 40
+long_name: The Temple of Ahn'Qiraj
+map_id: 3428
+raid_size: 40
+bosses:
+  - name: The Prophet Skeram
+    loot_table:
+      - name: Barrage Shoulders
+        item_id: 21699
+      - name: Breastplate of Annihilation
+        item_id: 21814
+      - name: Beetle Scaled Wristguards
+        item_id: 21708
+      - name: Leggings of Immersion
+        item_id: 21698
+      - name: Boots of the Fallen Prophet
+        item_id: 21705
+      - name: Boots of the Redeemed Prophecy
+        item_id: 21704
+      - name: Boots of the Unwavering Will
+        item_id: 21706
+      - name: Amulet of Foul Warding
+        item_id: 21702
+      - name: Pendant of the Qiraji Guardian
+        item_id: 21700
+      - name: Cloak of Concentrated Hatred
+        item_id: 21701
+      - name: Ring of Swarming Thought
+        item_id: 21707
+      - name: Hammer of Ji'zhi
+        item_id: 21703
+      - name: Staff of the Qiraji Prophets
+        item_id: 21128
+      - name: Imperial Qiraji Regalia
+        item_id: 21237
+      - name: Imperial Qiraji Armaments
+        item_id: 21232
+      - name: 'Plans: Thick Obsidian Breastplate'
+        item_id: 22222
+  - name: Vem, Yauj, and Kri
+    loot_table:
+      - name: Guise of the Devourer
+        item_id: 21693
+      - name: Ternary Mantle
+        item_id: 21694
+      - name: Cape of the Trinity
+        item_id: 21697
+      - name: Robes of the Triumvirate
+        item_id: 21696
+      - name: Triad Girdle
+        item_id: 21692
+      - name: Angelista's Touch
+        item_id: 21695
+      - name: Imperial Qiraji Regalia
+        item_id: 21237
+      - name: Imperial Qiraji Armaments
+        item_id: 21232
+      - name: Vest of Swift Execution
+        item_id: 21680
+      - name: Ring of the Devoured
+        item_id: 21681
+      - name: Petrified Scarab
+        item_id: 21685
+      - name: Wand of Qiraji Nobility
+        item_id: 21603
+      - name: Angelista's Charm
+        item_id: 21690
+      - name: Gloves of Ebru
+        item_id: 21689
+      - name: Ooze-ridden Gauntlets
+        item_id: 21691
+      - name: Boots of the Fallen Hero
+        item_id: 21688
+      - name: Mantle of Phrenic Power
+        item_id: 21686
+      - name: Mantle of the Desert's Fury
+        item_id: 21684
+      - name: Mantle of the Desert Crusade
+        item_id: 21683
+      - name: Bile-Covered Gauntlets
+        item_id: 21682
+      - name: Ukko's Ring of Darkness
+        item_id: 21687
+  - name: Battleguard Sartura
+    loot_table:
+      - name: Creeping Vine Helm
+        item_id: 21669
+      - name: Necklace of Purity
+        item_id: 21678
+      - name: Robes of the Battleguard
+        item_id: 21671
+      - name: Gloves of Enforcement
+        item_id: 21672
+      - name: Gauntlets of Steadfast Determination
+        item_id: 21674
+      - name: Thick Qirajihide Belt
+        item_id: 21675
+      - name: Leggings of the Festering Swarm
+        item_id: 21676
+      - name: Scaled Leggings of Qiraji Fury
+        item_id: 21668
+      - name: Legplates of Blazing Light
+        item_id: 21667
+      - name: Recomposed Boots
+        item_id: 21648
+      - name: Badge of the Swarmguard
+        item_id: 21670
+      - name: Sartura's Might
+        item_id: 21666
+      - name: Silithid Claw
+        item_id: 21673
+      - name: Imperial Qiraji Regalia
+        item_id: 21237
+      - name: Imperial Qiraji Armaments
+        item_id: 21232
+  - name: Fankriss the Unyielding
+    loot_table:
+      - name: Mantle of Wicked Revenge
+        item_id: 21665
+      - name: Pauldrons of the Unrelenting
+        item_id: 21639
+      - name: Cloak of Untold Secrets
+        item_id: 21627
+      - name: Robes of the Guardian Saint
+        item_id: 21663
+      - name: Silithid Carapace Chestguard
+        item_id: 21652
+      - name: Scaled Sand Reaver Leggings
+        item_id: 21651
+      - name: Hive Tunneler's Boots
+        item_id: 21645
+      - name: Ancient Qiraji Ripper
+        item_id: 21650
+      - name: Barb of the Sand Reaver
+        item_id: 21635
+      - name: Barbed Choker
+        item_id: 21664
+      - name: Fetish of the Sand Reaver
+        item_id: 21647
+      - name: Libram of Grace
+        item_id: 22402
+      - name: Totem of Life
+        item_id: 22396
+      - name: Imperial Qiraji Regalia
+        item_id: 21237
+      - name: Imperial Qiraji Armaments
+        item_id: 21232
+  - name: Viscidus
+    loot_table:
+      - name: Gauntlets of Kalimdor
+        item_id: 21624
+      - name: Gauntlets of the Righteous Champion
+        item_id: 21623
+      - name: Slime-coated Leggings
+        item_id: 21626
+      - name: Sharpened Silithid Femur
+        item_id: 21622
+      - name: Ring of the Qiraji Fury
+        item_id: 21677
+      - name: Scarab Brooch
+        item_id: 21625
+      - name: Idol of Health
+        item_id: 22399
+      - name: Imperial Qiraji Regalia
+        item_id: 21237
+      - name: Imperial Qiraji Armaments
+        item_id: 21232
+      - name: Qiraji Bindings of Command
+        item_id: 20928
+      - name: Qiraji Bindings of Dominance
+        item_id: 20932
+  - name: Princess Huhuran
+    loot_table:
+      - name: Cloak of the Golden Hive
+        item_id: 21621
+      - name: Hive Defiler Wristguards
+        item_id: 21618
+      - name: Gloves of the Messiah
+        item_id: 21619
+      - name: Wasphide Gauntlets
+        item_id: 21617
+      - name: Ring of the Martyr
+        item_id: 21620
+      - name: Huhuran's Stinger
+        item_id: 21616
+      - name: Imperial Qiraji Regalia
+        item_id: 21237
+      - name: Imperial Qiraji Armaments
+        item_id: 21232
+      - name: Qiraji Bindings of Command
+        item_id: 20928
+      - name: Qiraji Bindings of Dominance
+        item_id: 20932
+  - name: Twin Emperors
+    loot_table:
+      - name: Vek'lor's Diadem
+        item_id: 20930
+      - name: Qiraji Execution Bracers
+        item_id: 21602
+      - name: Vek'lor's Gloves of Devastation
+        item_id: 21599
+      - name: Royal Qiraji Belt
+        item_id: 21598
+      - name: Boots of Epiphany
+        item_id: 21600
+      - name: Ring of Emperor Vek'lor
+        item_id: 21601
+      - name: Royal Scepter of Vek'lor
+        item_id: 21597
+      - name: 'Formula: Enchant Cloak - Subtlety'
+        item_id: 20735
+      - name: Imperial Qiraji Armaments
+        item_id: 21232
+      - name: Vek'nilash's Circlet
+        item_id: 20926
+      - name: Amulet of Vek'nilash
+        item_id: 21608
+      - name: Bracelets of Royal Redemption
+        item_id: 21604
+      - name: Gloves of the Hidden Temple
+        item_id: 21605
+      - name: Regenerating Belt of Vek'nilash
+        item_id: 21609
+      - name: Grasp of the Fallen Emperor
+        item_id: 21607
+      - name: Belt of the Fallen Emperor
+        item_id: 21606
+      - name: Kalimdor's Revenge
+        item_id: 21679
+      - name: 'Formula: Enchant Gloves - Threat'
+        item_id: 20726
+      - name: Imperial Qiraji Regalia
+        item_id: 21237
+  - name: Ouro
+    loot_table:
+      - name: Don Rigoberto's Lost Hat
+        item_id: 21615
+      - name: Burrower Bracers
+        item_id: 21611
+      - name: The Burrower's Shell
+        item_id: 23558
+      - name: Jom Gabbar
+        item_id: 23570
+      - name: Wormscale Blocker
+        item_id: 21610
+      - name: Larvae of the Great Worm
+        item_id: 23557
+      - name: Imperial Qiraji Regalia
+        item_id: 21237
+      - name: Imperial Qiraji Armaments
+        item_id: 21232
+      - name: Ouro's Intact Hide
+        item_id: 20927
+      - name: Skin of the Great Sandworm
+        item_id: 20931
+  - name: C'Thun
+    loot_table:
+      - name: Mark of C'Thun
+        item_id: 22732
+      - name: Cloak of Clarity
+        item_id: 21583
+      - name: Cloak of the Devoured
+        item_id: 22731
+      - name: Eyestalk Waist Cord
+        item_id: 22730
+      - name: Grasp of the Old God
+        item_id: 21582
+      - name: Belt of Never-ending Agony
+        item_id: 21586
+      - name: Dark Storm Gauntlets
+        item_id: 21585
+      - name: Gauntlets of Annihilation
+        item_id: 21581
+      - name: Ring of the Godslayer
+        item_id: 21596
+      - name: Vanquished Tentacle of C'Thun
+        item_id: 21579
+      - name: Scepter of the False Prophet
+        item_id: 21839
+      - name: Death's Sting
+        item_id: 21126
+      - name: Dark Edge of Insanity
+        item_id: 21134
+      - name: Carapace of the Old God
+        item_id: 20929
+      - name: Husk of the Old God
+        item_id: 20933
+      - name: Eye of C'Thun
+        item_id: 21221
+      - name: Base of Atiesh
+        item_id: 22734
+  - name: Trash
+    loot_table:
+      - name: Garb of Royal Ascension
+        item_id: 21838
+      - name: Gloves of the Immortal
+        item_id: 21888
+      - name: Gloves of the Redeemed Prophecy
+        item_id: 21889
+      - name: Neretzek, The Blood Drinker
+        item_id: 21856
+      - name: Anubisath Warhammer
+        item_id: 21837
+      - name: Ritssyn's Ring of Chaos
+        item_id: 21836
+      - name: Shard of the Fallen Star
+        item_id: 21891
+      - name: Blue Qiraji Resonating Crystal
+        item_id: 21218
+      - name: Yellow Qiraji Resonating Crystal
+        item_id: 21324
+      - name: Green Qiraji Resonating Crystal
+        item_id: 21323
+      - name: Red Qiraji Resonating Crystal
+        item_id: 21321
+  - name: Scarabs
+    loot_table:
+      - name: Idol of Death
+        item_id: 20876
+      - name: Idol of Life
+        item_id: 20879
+      - name: Idol of Night
+        item_id: 20875
+      - name: Idol of Rebirth
+        item_id: 20878
+      - name: Idol of Strife
+        item_id: 20881
+      - name: Idol of the Sage
+        item_id: 20877
+      - name: Idol of the Sun
+        item_id: 20874
+      - name: Idol of War
+        item_id: 20882
+      - name: Greater Scarab Coffer Key
+        item_id: 21762
+      - name: Scarab Bag
+        item_id: 21156
+      - name: Ancient Qiraji Artifact
+        item_id: 21230
+      - name: Bone Scarab
+        item_id: 20864
+      - name: Bronze Scarab
+        item_id: 20861
+      - name: Clay Scarab
+        item_id: 20863
+      - name: Crystal Scarab
+        item_id: 20862
+      - name: Gold Scarab
+        item_id: 20859
+      - name: Ivory Scarab
+        item_id: 20865
+      - name: Silver Scarab
+        item_id: 20860
+      - name: Stone Scarab
+        item_id: 20858
+      - name: Large Obsidian Shard
+        item_id: 22203
+      - name: Small Obsidian Shard
+        item_id: 22202
+      - name: Qiraji Lord's Insignia
+        item_id: 21229

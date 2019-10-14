@@ -1,0 +1,316 @@
+name: Naxxramas
+map_id: 3456
+raid_size: 40
+bosses:
+  - name: Anub'Rekhan
+    loot_table:
+      - name: Splinter of Atiesh
+        item_id: 22726
+      - name: Frame of Atiesh
+        item_id: 22727
+      - name: Desecrated Bindings
+        item_id: 22369
+      - name: Desecrated Wristguards
+        item_id: 22362
+      - name: Desecrated Bracers
+        item_id: 22355
+      - name: Touch of Frost
+        item_id: 22935
+      - name: Cryptfiend Silk Cloak
+        item_id: 22938
+      - name: Wristguards of Vengeance
+        item_id: 22936
+      - name: Band of Unanswered Prayers
+        item_id: 22939
+      - name: Gem of Nerubis
+        item_id: 22937
+  - name: Grand Widow Faerlina
+    loot_table:
+      - name: Splinter of Atiesh
+        item_id: 22726
+      - name: Frame of Atiesh
+        item_id: 22727
+      - name: Desecrated Bindings
+        item_id: 22369
+      - name: Desecrated Wristguards
+        item_id: 22362
+      - name: Desecrated Bracers
+        item_id: 22355
+      - name: Malice Stone Pendant
+        item_id: 22943
+      - name: Polar Shoulder Pads
+        item_id: 22941
+      - name: Icebane Pauldrons
+        item_id: 22940
+      - name: The Widow's Embrace
+        item_id: 22942
+      - name: Widow's Remorse
+        item_id: 22806
+  - name: Maexxna
+    loot_table:
+      - name: Splinter of Atiesh
+        item_id: 22726
+      - name: Frame of Atiesh
+        item_id: 22727
+      - name: Desecrated Gloves
+        item_id: 22371
+      - name: Desecrated Handguards
+        item_id: 22364
+      - name: Desecrated Gauntlets
+        item_id: 22357
+      - name: Pendant of Forgotten Names
+        item_id: 22947
+      - name: Crystal Webbed Robe
+        item_id: 23220
+      - name: Kiss of the Spider
+        item_id: 22954
+      - name: Wraith Blade
+        item_id: 22807
+      - name: Maexxna's Fang
+        item_id: 22804
+  - name: Noth the Plaguebringer
+    loot_table:
+      - name: Splinter of Atiesh
+        item_id: 22726
+      - name: Frame of Atiesh
+        item_id: 22727
+      - name: Desecrated Belt
+        item_id: 22370
+      - name: Desecrated Girdle
+        item_id: 22363
+      - name: Desecrated Waistguard
+        item_id: 22356
+      - name: Cloak of the Scourge
+        item_id: 23030
+      - name: Band of the Inevitable
+        item_id: 23031
+      - name: Hailstone Band
+        item_id: 23028
+      - name: Noth's Frigid Heart
+        item_id: 23029
+      - name: Libram of Light
+        item_id: 23006
+      - name: Totem of Flowing Water
+        item_id: 23005
+      - name: Hatchet of Sundered Bone
+        item_id: 22816
+  - name: Heigan the Unclean
+    loot_table:
+      - name: Splinter of Atiesh
+        item_id: 22726
+      - name: Frame of Atiesh
+        item_id: 22727
+      - name: Desecrated Belt
+        item_id: 22370
+      - name: Desecrated Girdle
+        item_id: 22363
+      - name: Desecrated Waistguard
+        item_id: 22356
+      - name: Preceptor's Hat
+        item_id: 23035
+      - name: Icy Scale Coif
+        item_id: 23033
+      - name: Icebane Helmet
+        item_id: 23019
+      - name: Necklace of Necropsy
+        item_id: 23036
+      - name: Legplates of Carnage
+        item_id: 23068
+  - name: Loatheb
+    loot_table:
+      - name: Splinter of Atiesh
+        item_id: 22726
+      - name: Frame of Atiesh
+        item_id: 22727
+      - name: Desecrated Leggings
+        item_id: 22366
+      - name: Desecrated Legguards
+        item_id: 22359
+      - name: Desecrated Legplates
+        item_id: 22352
+      - name: Band of Unnatural Forces
+        item_id: 23038
+      - name: Ring of Spiritual Fervor
+        item_id: 23037
+      - name: Loatheb's Reflection
+        item_id: 23042
+      - name: The Eye of Nerub
+        item_id: 23039
+      - name: Brimstone Staff
+        item_id: 22800
+  - name: Instructor Razuvious
+    loot_table:
+      - name: Splinter of Atiesh
+        item_id: 22726
+      - name: Frame of Atiesh
+        item_id: 22727
+      - name: Desecrated Sandals
+        item_id: 22372
+      - name: Desecrated Boots
+        item_id: 22365
+      - name: Desecrated Sabatons
+        item_id: 22358
+      - name: Veil of Eclipse
+        item_id: 23017
+      - name: Girdle of the Mentor
+        item_id: 23219
+      - name: Signet of the Fallen Defender
+        item_id: 23018
+      - name: Idol of Longevity
+        item_id: 23004
+      - name: Wand of the Whispering Dead
+        item_id: 23009
+      - name: Iblis, Blade of the Fallen Seraph
+        item_id: 23014
+  - name: Gothik the Harvester
+    loot_table:
+      - name: Splinter of Atiesh
+        item_id: 22726
+      - name: Frame of Atiesh
+        item_id: 22727
+      - name: Desecrated Sandals
+        item_id: 22372
+      - name: Desecrated Boots
+        item_id: 22365
+      - name: Desecrated Sabatons
+        item_id: 22358
+      - name: Glacial Headdress
+        item_id: 23032
+      - name: Polar Helmet
+        item_id: 23020
+      - name: Sadist's Collar
+        item_id: 23023
+      - name: The Soul Harvester's Bindings
+        item_id: 23021
+      - name: Boots of Displacement
+        item_id: 23073
+  - name: The Four Horsemen
+    loot_table:
+      - name: Splinter of Atiesh
+        item_id: 22726
+      - name: Frame of Atiesh
+        item_id: 22727
+      - name: Desecrated Robe
+        item_id: 22351
+      - name: Desecrated Tunic
+        item_id: 22350
+      - name: Desecrated Breastplate
+        item_id: 22349
+      - name: Leggings of Apocalypse
+        item_id: 23071
+      - name: Seal of the Damned
+        item_id: 23025
+      - name: Warmth of Forgiveness
+        item_id: 23027
+      - name: Soulstring
+        item_id: 22811
+      - name: Maul of the Redeemed Crusader
+        item_id: 22809
+      - name: Corrupted Ashbringer
+        item_id: 22691
+  - name: Patchwerk
+    loot_table:
+      - name: Splinter of Atiesh
+        item_id: 22726
+      - name: Frame of Atiesh
+        item_id: 22727
+      - name: Desecrated Shoulderpads
+        item_id: 22368
+      - name: Desecrated Spaulders
+        item_id: 22361
+      - name: Desecrated Pauldrons
+        item_id: 22354
+      - name: Cloak of Suturing
+        item_id: 22960
+      - name: Band of Reanimation
+        item_id: 22961
+      - name: Wand of Fates
+        item_id: 22820
+      - name: The Plague Bearer
+        item_id: 22818
+      - name: Severance
+        item_id: 22815
+  - name: Grobbulus
+    loot_table:
+      - name: Splinter of Atiesh
+        item_id: 22726
+      - name: Frame of Atiesh
+        item_id: 22727
+      - name: Desecrated Shoulderpads
+        item_id: 22368
+      - name: Desecrated Spaulders
+        item_id: 22361
+      - name: Desecrated Pauldrons
+        item_id: 22354
+      - name: Glacial Mantle
+        item_id: 22968
+      - name: Icy Scale Spaulders
+        item_id: 22967
+      - name: Toxin Injector
+        item_id: 22810
+      - name: Midnight Haze
+        item_id: 22803
+      - name: The End of Dreams
+        item_id: 22988
+  - name: Gluth
+    loot_table:
+      - name: Splinter of Atiesh
+        item_id: 22726
+      - name: Frame of Atiesh
+        item_id: 22727
+      - name: Rime Covered Mantle
+        item_id: 22983
+      - name: Gluth's Missing Collar
+        item_id: 22981
+      - name: Digested Hand of Power
+        item_id: 22994
+      - name: Death's Bargain
+        item_id: 23075
+      - name: Claymore of Unholy Might
+        item_id: 22813
+      - name: Desecrated Shoulderpads
+        item_id: 22368
+      - name: Desecrated Bindings
+        item_id: 22369
+      - name: Desecrated Belt
+        item_id: 22370
+      - name: Desecrated Sandals
+        item_id: 22372
+      - name: Desecrated Spaulders
+        item_id: 22361
+      - name: Desecrated Wristguards
+        item_id: 22362
+      - name: Desecrated Girdle
+        item_id: 22363
+      - name: Desecrated Boots
+        item_id: 22365
+      - name: Desecrated Pauldrons
+        item_id: 22354
+      - name: Desecrated Bracers
+        item_id: 22355
+      - name: Desecrated Waistguard
+        item_id: 22356
+      - name: Desecrated Sabatons
+        item_id: 22358
+  - name: Thaddius
+    loot_table:
+      - name: Splinter of Atiesh
+        item_id: 22726
+      - name: Frame of Atiesh
+        item_id: 22727
+      - name: Desecrated Circlet
+        item_id: 22367
+      - name: Desecrated Headpiece
+        item_id: 22360
+      - name: Desecrated Helmet
+        item_id: 22353
+      - name: Plated Abomination Ribcage
+        item_id: 23000
+      - name: Leggings of Polarity
+        item_id: 23070
+      - name: Eye of Diminution
+        item_id: 23001
+      - name: The Castigator
+        item_id: 22808
+      - name: Spire of Twilight
+        item_id: 22801
