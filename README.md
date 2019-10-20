@@ -15,6 +15,21 @@ This is a Node API designated to pulling Classic Game Data from the World of War
   <br>
   *development only
 
+### Recommended Tools:
+
+- VSCode
+- VSCode Extensions:
+
+  - Better Comments
+    - Allows for very visual comment highlighting, delivering a set of comment enchancements to draw attention to critical details, and enchance readability of code.
+  - Prettier - Code formatter
+    - Allows for any code that's contributed to this repo to use Prettier code formatting and standardization to ensure syntax and format are uniform with no extra developer effort.
+  - Rainbow Brackets
+    - Personal recommendation; allows function scopes and parenthesis fields to be much more clearly found and paired.
+  - Version Lens
+
+    - Reads through all of the packages listed in your package.json, checking to see if you are using the latest versions for both development and production packages.
+
     <br>
 
 ## Installation

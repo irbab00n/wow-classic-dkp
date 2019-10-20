@@ -50,17 +50,22 @@ const writeDataToJSON = async (data: any, filename: string) => {
  *    }
  */
 const normalizeDKPHistoryCSV = (data: any) => {
-  // console.log('data to normalize from the CSV: ', data);
-  // collect the keys of the CSV parse object
-  // iterate through the keys and create the
   try {
-    // ----- CONFIG -----
+    // *----------------*
+    // *---- CONFIG ----*
+    // *----------------*
     const headerStart = 0;
     const headerEnd = 2;
-    const csvEntries = Object.entries(data); // extracts the key/value pairs into an array [['key', 'value'], ...]
+    // extracts the key/value pairs into an array [['key', 'value'], ...]
+    // ! Object.entires has no IE support at all.  Will need to be polyfilled or transpiled to ES5 prior to deployment for full browser support
+    const csvEntries = Object.entries(data);
     // console.log('parsed CSV entries: ', csvEntries);
 
-    // ----- HEADERS -----
+    // *-----------------*
+    // *---- HEADERS ----*
+    // *-----------------*
+    // Each entry from monolith contains some meta-data at the top of the CSV that contains a list of attendees,
+    // and a value labeled as the history version.  May be related to the export/update broadcasted for the raid.
     // TODO: Format the headers
     // attendees: ['name', ...]
     // history_id: 5
@@ -69,17 +74,24 @@ const normalizeDKPHistoryCSV = (data: any) => {
       headerEnd
     );
     let history_version_id = historyVersion[1];
+    // TODO: Document what this does and why we need to do this
     let attendees = attendeesString[1].replace('DKPHistory = ', '').split('-');
 
-    // ----- ENTIRES -----
-    let dkpHistoryEntries = [];
-    for (let i = headerEnd; i < csvEntries.length; i += 4) {
+    // *-----------------*
+    // *---- ENTIRES ----*
+    // *-----------------*
+    let dkpHistoryEntries = []; // stores formatted dkp history entries from loop below
+    let entrySize = 4; // each dkp entry has 4 attributes we need to capture // ! VALUE MAY CHANGE
+
+    for (let i = headerEnd; i < csvEntries.length; i += entrySize) {
+      // slicing i, through i + entrySize ensures we grab entry 'chunks' of the right size to format
+      // ! CAUTION: This value may change depending on versioning/updates from Monolith DKP.
       let [
         entry_id,
         entry_description,
         entry_recipients,
         entry_value,
-      ] = csvEntries.slice(i, i + 4);
+      ] = csvEntries.slice(i, i + entrySize);
 
       // TODO: Create an interface for this
       let newEntry: any = {
