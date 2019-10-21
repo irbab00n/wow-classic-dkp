@@ -6,7 +6,7 @@ const oauth2 = require('simple-oauth2').create(credentials);
 
 // Default options for the getToken module
 const _defaultOptions: BasicFunctionOptions = {
-  verbose: true,
+  verbose: false,
 };
 
 // Module storage for the token

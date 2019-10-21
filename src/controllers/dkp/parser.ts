@@ -1,8 +1,12 @@
+import Axios from 'axios';
+import CircularJSON from 'circular-json';
 import csv from 'csv-parser';
 import fs from 'fs';
 import path from 'path';
 
 import { getItem } from '../blizzard/items';
+import { getToken } from '../blizzard/getToken';
+import { urlConfig } from '../blizzard/shared';
 
 // look for all files that include dkp-history
 // import them
@@ -11,7 +15,8 @@ import { getItem } from '../blizzard/items';
 // import the raw data
 // normalize into object-based format, passing through the filename, and the date extracted
 
-const filename = 'loot-history-10132019';
+const filename = 'loot-history-10202019';
+const { locale } = urlConfig;
 
 // JSON file writing helper function
 const writeDataToJSON = async (data: any, filename: string) => {
@@ -19,7 +24,7 @@ const writeDataToJSON = async (data: any, filename: string) => {
   try {
     fs.writeFileSync(
       path.resolve(__dirname, `${filename}.json`),
-      JSON.stringify(data)
+      CircularJSON.stringify(data)
     );
   } catch (error) {
     console.error(
@@ -182,12 +187,25 @@ export const parserTest = () => {
 
         // Expand the item data
         let mappedData = normalizedData.map(async (dataEntry: any) => {
-          let itemData = await getItem(dataEntry.item_id);
+          let itemData = await getItem(dataEntry.item_id, { verbose: false });
           dataEntry.item = itemData;
+
           return dataEntry;
         });
         let fullMappedData = await Promise.all(mappedData);
-        console.log('full mapped loot history data: ', fullMappedData);
+
+        let accessToken = await getToken();
+
+        let itemDataWithMedia = fullMappedData.map(async (itemEntry: any) => {
+          // console.log(itemEntry);
+          let media = await Axios.get(
+            `${itemEntry.item.media.key.href}&locale=${locale}&access_token=${accessToken}`
+          );
+          itemEntry.item.media = media.data;
+          return itemEntry;
+        });
+        let fullMappedDataWithMedia = await Promise.all(itemDataWithMedia);
+        console.log('full mapped loot history data: ', fullMappedDataWithMedia);
         writeDataToJSON(fullMappedData, `${filename}-normalized`);
       });
   } catch (error) {
