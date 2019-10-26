@@ -15,7 +15,7 @@ import { urlConfig } from '../blizzard/shared';
 // import the raw data
 // normalize into object-based format, passing through the filename, and the date extracted
 
-const filename = 'loot-history-10202019';
+const filename = 'loot-history-10242019';
 const { locale } = urlConfig;
 
 // JSON file writing helper function
@@ -130,19 +130,21 @@ const normalizeDKPHistoryCSV = (data: any) => {
 };
 
 const normalizeLootHistoryCSV = (data: any) => {
-  // console.log('data to normalize from the CSV: ', data);
-  // collect the keys of the CSV parse object
-  // iterate through the keys and create the
   try {
+    // *----------------*
+    // *---- CONFIG ----*
+    // *----------------*
     const entryLength = 7;
-    // ----- CONFIG -----
-    const csvEntries: any = Object.entries(data); // extracts the key/value pairs into an array [['key', 'value'], ...]
-    // format the first entry
+    const csvEntries: any = Object.entries(data); // extracts the key/value pairs into a 2 * n matrix [['key', 'value'], ..., n]
+
+    // * FORMAT THE FIRST ENTRY
+    // Remove the dingleberry string at the start of the first entry in the CSV
     csvEntries[0][1] = csvEntries[0][1].replace('LootHistory = ', '');
+    // Then pull out the value pair from the Object.entries call earlier
     let formattedEntries = csvEntries.map((entry: any) => entry[1]);
     // console.log('parsed CSV entries: ', formattedEntries);
 
-    // ----- ENTIRES -----
+    // * BUILD THE ENTRIES
     let lootHistoryEntries = [];
     for (let i = 0; i < formattedEntries.length; i += entryLength) {
       let [
@@ -175,38 +177,62 @@ const normalizeLootHistoryCSV = (data: any) => {
   }
 };
 
-// Reads the csv data, and runs it through the normalization function
-// TODO:
+/**
+ * *---------------------------------*
+ * *- Process Loot History CSV File -*
+ * *---------------------------------*
+ */
+const processLootHistoryCSV = async (data: any) => {
+  // * NORMALIZE
+  let normalizedLootHistoryData = normalizeLootHistoryCSV(data);
+
+  // * RETRIEVE ITEM DATA
+  let pendingLootHistoryDataWithItems = normalizedLootHistoryData.map(
+    async (dataEntry: any) => {
+      dataEntry.item = await getItem(dataEntry.item_id, { verbose: false });
+      return dataEntry;
+    }
+  );
+  // ! Must wait for all pending getItem calls
+  let fullLootHistoryDataWithItems = await Promise.all(
+    pendingLootHistoryDataWithItems
+  );
+
+  console.log('Taking a 3 second break:');
+  setTimeout(() => {
+    console.log('Break time over');
+  }, 3000);
+
+  // * RETRIEVE ITEM ICONS
+  // Uses the a "self-help" link provided by the WoW Classic Item API
+  // to retrieve the available media for the item in question.
+  // ! OAuth Access Token required
+  let accessToken = await getToken();
+  let pendingLootHistoryDataWithItemMedia = fullLootHistoryDataWithItems.map(
+    async (itemEntry: any) => {
+      let media = await Axios.get(
+        `${itemEntry.item.media.key.href}&locale=${locale}&access_token=${accessToken}`
+      );
+      itemEntry.item.media = media.data;
+      return itemEntry;
+    }
+  );
+
+  // ! Must wait for all media queries
+  let fullLootHistoryDataWithItemMedia = await Promise.all(
+    pendingLootHistoryDataWithItemMedia
+  );
+  return fullLootHistoryDataWithItemMedia;
+};
+
 export const parserTest = () => {
   try {
     fs.createReadStream(path.resolve(__dirname, `${filename}.csv`))
       .pipe(csv())
       .on('data', async (data: any) => {
-        // Normalize the data
-        let normalizedData = normalizeLootHistoryCSV(data);
-
-        // Expand the item data
-        let mappedData = normalizedData.map(async (dataEntry: any) => {
-          let itemData = await getItem(dataEntry.item_id, { verbose: false });
-          dataEntry.item = itemData;
-
-          return dataEntry;
-        });
-        let fullMappedData = await Promise.all(mappedData);
-
-        let accessToken = await getToken();
-
-        let itemDataWithMedia = fullMappedData.map(async (itemEntry: any) => {
-          // console.log(itemEntry);
-          let media = await Axios.get(
-            `${itemEntry.item.media.key.href}&locale=${locale}&access_token=${accessToken}`
-          );
-          itemEntry.item.media = media.data;
-          return itemEntry;
-        });
-        let fullMappedDataWithMedia = await Promise.all(itemDataWithMedia);
-        console.log('full mapped loot history data: ', fullMappedDataWithMedia);
-        writeDataToJSON(fullMappedData, `${filename}-normalized`);
+        let fullData = await processLootHistoryCSV(data);
+        console.log('full mapped loot history data: ', fullData);
+        writeDataToJSON(fullData, `${filename}-normalized`);
       });
   } catch (error) {
     console.error(
