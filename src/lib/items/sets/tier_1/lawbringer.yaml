@@ -1,0 +1,29 @@
+name: Lawbringer Armor
+set_id: 208
+class_name: Paladin
+class_id: 2
+pieces:
+  - piece_name: Lawbringer Belt
+    item_id: 16858
+    slot: waist
+  - piece_name: Lawbringer Boots
+    item_id: 16859
+    slot: feet
+  - piece_name: Lawbringer Bracers
+    item_id: 16857
+    slot: wrist
+  - piece_name: Lawbringer Chestguard
+    item_id: 16853
+    slot: chest
+  - piece_name: Lawbringer Helm
+    item_id: 16854
+    slot: head
+  - piece_name: Lawbringer Gauntlets
+    item_id: 16860
+    slot: hands
+  - piece_name: Lawbringer Legplates
+    item_id: 16855
+    slot: legs
+  - piece_name: Lawbringer Spaulders
+    item_id: 16856
+    slot: shoulder

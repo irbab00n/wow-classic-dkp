@@ -1,0 +1,29 @@
+name: Vestments of Prophecy
+set_id: 202
+class_name: Priest
+class_id: 5
+pieces:
+  - piece_name: Girdle of Prophecy
+    item_id: 16817
+    slot: waist
+  - piece_name: Boots of Prophecy
+    item_id: 16811
+    slot: feet
+  - piece_name: Vambraces of Prophecy
+    item_id: 16819
+    slot: wrist
+  - piece_name: Robes of Prophecy
+    item_id: 16815
+    slot: chest
+  - piece_name: Circlet of Prophecy
+    item_id: 16813
+    slot: head
+  - piece_name: Gloves of Prophecy
+    item_id: 16812
+    slot: hands
+  - piece_name: Pants of Prophecy
+    item_id: 16814
+    slot: legs
+  - piece_name: Mantle of Prophecy
+    item_id: 16816
+    slot: shoulder

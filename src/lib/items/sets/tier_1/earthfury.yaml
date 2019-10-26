@@ -1,0 +1,29 @@
+name: The Earthfury
+set_id: 207
+class_name: Shaman
+class_id: 7
+pieces:
+  - piece_name: Earthfury Belt
+    item_id: 16838
+    slot: waist
+  - piece_name: Earthfury Boots
+    item_id: 16837
+    slot: feet
+  - piece_name: Earthfury Bracers
+    item_id: 16840
+    slot: wrist
+  - piece_name: Earthfury Vestments
+    item_id: 16841
+    slot: chest
+  - piece_name: Earthfury Helmet
+    item_id: 16842
+    slot: head
+  - piece_name: Earthfury Gauntlets
+    item_id: 16839
+    slot: hands
+  - piece_name: Earthfury Legguards
+    item_id: 16843
+    slot: legs
+  - piece_name: Earthfury Epaulets
+    item_id: 16844
+    slot: shoulder

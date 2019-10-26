@@ -1,0 +1,29 @@
+name: Arcanist Regalia
+set_id: 201
+class_name: Mage
+class_id: 8
+pieces:
+  - piece_name: Arcanist Belt
+    item_id: 16802
+    slot: waist
+  - piece_name: Arcanist Boots
+    item_id: 16800
+    slot: feet
+  - piece_name: Arcanist Bindings
+    item_id: 16799
+    slot: wrist
+  - piece_name: Arcanist Robes
+    item_id: 16798
+    slot: chest
+  - piece_name: Arcanist Crown
+    item_id: 16795
+    slot: head
+  - piece_name: Arcanist Gloves
+    item_id: 16801
+    slot: hands
+  - piece_name: Arcanist Leggings
+    item_id: 16796
+    slot: legs
+  - piece_name: Arcanist Mantle
+    item_id: 16797
+    slot: shoulder

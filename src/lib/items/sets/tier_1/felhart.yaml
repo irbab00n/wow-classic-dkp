@@ -1,0 +1,29 @@
+name: Felheart Raiment
+set_id: 203
+class_name: Warlock
+class_id: 9
+pieces:
+  - piece_name: Felheart Belt
+    item_id: 16806
+    slot: waist
+  - piece_name: Felheart Slippers
+    item_id: 16803
+    slot: feet
+  - piece_name: Felheart Bracers
+    item_id: 16804
+    slot: wrist
+  - piece_name: Felheart Robes
+    item_id: 16809
+    slot: chest
+  - piece_name: Felheart Horns
+    item_id: 16808
+    slot: head
+  - piece_name: Felheart Gloves
+    item_id: 16805
+    slot: hands
+  - piece_name: Felheart Pants
+    item_id: 16810
+    slot: legs
+  - piece_name: Felheart Shoulder Pads
+    item_id: 16807
+    slot: shoulder

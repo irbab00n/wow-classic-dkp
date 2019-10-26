@@ -1,0 +1,29 @@
+name: Nightslayer Armor
+set_id: 204
+class_name: Rogue
+class_id: 4
+pieces:
+  - piece_name: Nightslayer Belt
+    item_id: 16827
+    slot: waist
+  - piece_name: Nightslayer Boots
+    item_id: 16824
+    slot: feet
+  - piece_name: Nightslayer Bracelets
+    item_id: 16825
+    slot: wrist
+  - piece_name: Nightslayer Chestpiece
+    item_id: 16820
+    slot: chest
+  - piece_name: Nightslayer Cover
+    item_id: 16821
+    slot: head
+  - piece_name: Nightslayer Gloves
+    item_id: 16826
+    slot: hands
+  - piece_name: Nightslayer Pants
+    item_id: 16822
+    slot: legs
+  - piece_name: Nightslayer Shoulder Pads
+    item_id: 16823
+    slot: shoulder

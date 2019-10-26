@@ -1,0 +1,29 @@
+name: Giantstalker Armor
+set_id: 206
+class_name: Hunter
+class_id: 3
+pieces:
+  - piece_name: Giantstalker Belt
+    item_id: 16851
+    slot: waist
+  - piece_name: Giantstalker Boots
+    item_id: 16849
+    slot: feet
+  - piece_name: Giantstalker Bracers
+    item_id: 16850
+    slot: wrist
+  - piece_name: Giantstalker Breastplate
+    item_id: 16845
+    slot: chest
+  - piece_name: Giantstalker Helmet
+    item_id: 16846
+    slot: head
+  - piece_name: Giantstalker Gloves
+    item_id: 16852
+    slot: hands
+  - piece_name: Giantstalker Leggings
+    item_id: 16847
+    slot: legs
+  - piece_name: Giantstalker Epaulets
+    item_id: 16848
+    slot: shoulder

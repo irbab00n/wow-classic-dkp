@@ -1,0 +1,29 @@
+name: Cenarion Raiment
+set_id: 205
+class_name: Druid
+class_id: 11
+pieces:
+  - piece_name: Cenarion Belt
+    item_id: 16828
+    slot: waist
+  - piece_name: Cenarion Boots
+    item_id: 16829
+    slot: feet
+  - piece_name: Cenarion Bracers
+    item_id: 16830
+    slot: wrist
+  - piece_name: Cenarion Vestments
+    item_id: 16833
+    slot: chest
+  - piece_name: Cenarion Helm
+    item_id: 16834
+    slot: head
+  - piece_name: Cenarion Gloves
+    item_id: 16831
+    slot: hands
+  - piece_name: Cenarion Leggings
+    item_id: 16835
+    slot: legs
+  - piece_name: Cenarion Spaulders
+    item_id: 16836
+    slot: shoulder
